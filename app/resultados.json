@@ -1,0 +1,57 @@
+{
+    "fecha_actual": 13,
+    "torneo": "Liga Profesional 2026",
+    "partidos": [
+        {
+            "id": 101,
+            "local": "Vélez Sarsfield",
+            "visitante": "Talleres de Córdoba",
+            "goles_local": 2,
+            "goles_visitante": 1,
+            "estado": "finalizado",
+            "horario": "15:00",
+            "fecha": "2026-04-04"
+        },
+        {
+            "id": 102,
+            "local": "Boca Juniors",
+            "visitante": "Defensa y Justicia",
+            "goles_local": 1,
+            "goles_visitante": 0,
+            "estado": "en_curso",
+            "minuto": 75,
+            "horario": "18:00",
+            "fecha": "2026-04-04"
+        },
+        {
+            "id": 103,
+            "local": "River Plate",
+            "visitante": "Belgrano",
+            "goles_local": null,
+            "goles_visitante": null,
+            "estado": "programado",
+            "horario": "21:00",
+            "fecha": "2026-04-04"
+        },
+        {
+            "id": 104,
+            "local": "Racing Club",
+            "visitante": "Argentinos Juniors",
+            "goles_local": 0,
+            "goles_visitante": 2,
+            "estado": "finalizado",
+            "horario": "16:30",
+            "fecha": "2026-04-04"
+        },
+        {
+            "id": 105,
+            "local": "Estudiantes LP",
+            "visitante": "Unión",
+            "goles_local": null,
+            "goles_visitante": null,
+            "estado": "programado",
+            "horario": "17:00",
+            "fecha": "2026-04-05"
+        }
+    ]
+}
