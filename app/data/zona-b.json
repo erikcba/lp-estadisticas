@@ -1,0 +1,67 @@
+{
+  "torneo": "Copa de la Liga 2026",
+  "zona": "B",
+  "ultima_actualizacion": "2026-04-13",
+  "posiciones": [
+    {
+      "posicion": 1,
+      "equipo": "Racing Club",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Racing_Club_de_Avellaneda_logo.svg/1200px-Racing_Club_de_Avellaneda_logo.svg.png",
+      "pj": 13, "pg": 8, "pe": 3, "pp": 2, "gf": 22, "gc": 10, "dg": 12, "pts": 27
+    },
+    {
+      "posicion": 2,
+      "equipo": "Estudiantes LP",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Escudo_del_Club_Estudiantes_de_La_Plata.svg/1200px-Escudo_del_Club_Estudiantes_de_La_Plata.svg.png",
+      "pj": 13, "pg": 7, "pe": 4, "pp": 2, "gf": 18, "gc": 9, "dg": 9, "pts": 25
+    },
+    {
+      "posicion": 3,
+      "equipo": "Godoy Cruz",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Club_Godoy_Cruz_Antonio_Tomba.svg/1200px-Club_Godoy_Cruz_Antonio_Tomba.svg.png",
+      "pj": 13, "pg": 7, "pe": 2, "pp": 4, "gf": 15, "gc": 8, "dg": 7, "pts": 23
+    },
+    {
+      "posicion": 4,
+      "equipo": "Newell's Old Boys",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys.svg.png",
+      "pj": 13, "pg": 6, "pe": 3, "pp": 4, "gf": 14, "gc": 12, "dg": 2, "pts": 21
+    },
+    {
+      "posicion": 5,
+      "equipo": "Lanús",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Escudo_del_Club_Atl%C3%A9tico_Lan%C3%BAs.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Lan%C3%BAs.svg.png",
+      "pj": 13, "pg": 6, "pe": 2, "pp": 5, "gf": 16, "gc": 15, "dg": 1, "pts": 20
+    },
+    {
+      "posicion": 6,
+      "equipo": "Boca Juniors",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Boca_Juniors_logo1.svg/1200px-Boca_Juniors_logo1.svg.png",
+      "pj": 13, "pg": 5, "pe": 4, "pp": 4, "gf": 14, "gc": 11, "dg": 3, "pts": 19
+    },
+    {
+      "posicion": 7,
+      "equipo": "Defensa y Justicia",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Defensa_y_Justicia_logo.svg/1200px-Defensa_y_Justicia_logo.svg.png",
+      "pj": 13, "pg": 5, "pe": 4, "pp": 4, "gf": 13, "gc": 14, "dg": -1, "pts": 19
+    },
+    {
+      "posicion": 8,
+      "equipo": "Unión",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg.png",
+      "pj": 13, "pg": 4, "pe": 5, "pp": 4, "gf": 12, "gc": 12, "dg": 0, "pts": 17
+    },
+    {
+      "posicion": 9,
+      "equipo": "San Lorenzo",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg.png",
+      "pj": 13, "pg": 3, "pe": 6, "pp": 4, "gf": 10, "gc": 13, "dg": -3, "pts": 15
+    },
+    {
+      "posicion": 10,
+      "equipo": "Platense",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Escudo_del_Club_Atl%C3%A9tico_Platense.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Platense.svg.png",
+      "pj": 13, "pg": 3, "pe": 3, "pp": 7, "gf": 8, "gc": 16, "dg": -8, "pts": 12
+    }
+  ]
+}

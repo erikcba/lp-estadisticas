@@ -3,7 +3,7 @@ import data from '../app/resultados.json';
 export default function ResultadosFecha() {
     return (
         <div className="flex flex-col gap-4 h-full bg-surface-container-low">
-            <h2 className="text-on-background p-4 bg-surface-container w-full font-headline text-xl mb-2">
+            <h2 className="text-on-background p-4 bg-surface-container w-full font-headline text-xl mb-2 border-l-4 border-primary">
                 Resultados - Fecha {data.fecha_actual}
             </h2>
 
