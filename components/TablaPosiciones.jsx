@@ -1,13 +1,22 @@
 import Image from 'next/image'
 
 const TablaPosiciones = ({ titulo, equipos }) => {
+  // Función auxiliar para los colores de los círculos de forma
+  const getFormaColor = (resultado) => {
+    switch (resultado) {
+      case 'V': return 'bg-secondary-fixed text-on-secondary-fixed'; // Verde/Victoria
+      case 'E': return 'bg-outline-variant text-on-surface-variant'; // Gris/Empate
+      case 'D': return 'bg-error text-on-error'; // Rojo/Derrota
+      default: return 'bg-surface-variant';
+    }
+  }
+
   return (
-    <div className="overflow-x-auto bg-surface-container-low border-outline-variant mb-8">
-      {/* Título dinámico con tus colores de Material 3 */}
+    <div className="overflow-x-auto bg-surface-container-low">
       <h2 className='bg-surface-container text-on-background p-3 border-l-4 border-primary font-headline text-xl'>
         {titulo}
       </h2>
-      
+
       <table className="w-full text-left border-collapse">
         <thead>
           <tr className="bg-surface-container-high text-on-surface">
@@ -15,6 +24,7 @@ const TablaPosiciones = ({ titulo, equipos }) => {
             <th className="p-3 font-headline">Equipo</th>
             <th className="p-3 font-headline text-center">PJ</th>
             <th className="p-3 font-headline text-center">DG</th>
+            <th className="p-3 font-headline text-center">Forma</th>
             <th className="p-3 font-headline text-center bg-primary-container text-on-primary-container">Pts</th>
           </tr>
         </thead>
@@ -38,7 +48,23 @@ const TablaPosiciones = ({ titulo, equipos }) => {
               <td className={`p-3 text-center font-medium ${team.dg > 0 ? 'text-secondary-fixed' : 'text-error'}`}>
                 {team.dg > 0 ? `+${team.dg}` : team.dg}
               </td>
-              <td className="p-3 text-center font-bold text-on-surface bg-outline-variant/30 ">{team.pts}</td>
+
+              {/* Nueva celda de Forma */}
+              <td className="p-3">
+                <div className="flex gap-1 justify-center">
+                  {team.forma?.map((resultado, index) => (
+                    <span
+                      key={index}
+                      className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold ${getFormaColor(resultado)}`}
+                      title={resultado === 'V' ? 'Victoria' : resultado === 'E' ? 'Empate' : 'Derrota'}
+                    >
+                      {resultado}
+                    </span>
+                  ))}
+                </div>
+              </td>
+
+              <td className="p-3 text-center font-bold text-on-surface bg-surface-container-high/50">{team.pts}</td>
             </tr>
           ))}
         </tbody>

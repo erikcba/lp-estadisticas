@@ -1,136 +1,76 @@
 {
-    "torneo": "Liga Profesional de Fútbol 2026",
-    "ultima_actualizacion": "2026-04-04",
-    "posiciones": [
-        {
-            "posicion": 1,
-            "equipo": "Vélez Sarsfield",
-            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/VelezSarsfield.svg/1200px-VelezSarsfield.svg.png",
-            "pj": 12,
-            "pg": 6,
-            "pe": 4,
-            "pp": 2,
-            "gf": 14,
-            "gc": 9,
-            "dg": 5,
-            "pts": 22
-        },
-        {
-            "posicion": 2,
-            "equipo": "Estudiantes de La Plata",
-            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Escudo_del_Club_Estudiantes_de_La_Plata.svg/1200px-Escudo_del_Club_Estudiantes_de_La_Plata.svg.png",
-            "pj": 12,
-            "pg": 6,
-            "pe": 3,
-            "pp": 3,
-            "gf": 14,
-            "gc": 6,
-            "dg": 8,
-            "pts": 21
-        },
-        {
-            "posicion": 3,
-            "equipo": "Boca Juniors",
-            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Boca_Juniors_logo1.svg/1200px-Boca_Juniors_logo1.svg.png",
-            "pj": 12,
-            "pg": 5,
-            "pe": 5,
-            "pp": 2,
-            "gf": 14,
-            "gc": 7,
-            "dg": 7,
-            "pts": 20
-        },
-        {
-            "posicion": 4,
-            "equipo": "River Plate",
-            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/River_Plate_crest.svg/1200px-River_Plate_crest.svg.png",
-            "pj": 11,
-            "pg": 6,
-            "pe": 2,
-            "pp": 3,
-            "gf": 14,
-            "gc": 9,
-            "dg": 5,
-            "pts": 20
-        },
-        {
-            "posicion": 5,
-            "equipo": "Argentinos Juniors",
-            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Escudo_del_Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors.svg/1200px-Escudo_del_Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors.svg.png",
-            "pj": 11,
-            "pg": 5,
-            "pe": 5,
-            "pp": 1,
-            "gf": 10,
-            "gc": 5,
-            "dg": 5,
-            "pts": 20
-        },
-        {
-            "posicion": 6,
-            "equipo": "Defensa y Justicia",
-            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Defensa_y_Justicia_logo.svg/1200px-Defensa_y_Justicia_logo.svg.png",
-            "pj": 11,
-            "pg": 4,
-            "pe": 7,
-            "pp": 0,
-            "gf": 15,
-            "gc": 8,
-            "dg": 7,
-            "pts": 19
-        },
-        {
-            "posicion": 7,
-            "equipo": "Club Atlético Unión",
-            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg.png",
-            "pj": 12,
-            "pg": 5,
-            "pe": 4,
-            "pp": 3,
-            "gf": 18,
-            "gc": 12,
-            "dg": 6,
-            "pts": 19
-        },
-        {
-            "posicion": 8,
-            "equipo": "Club Atlético Belgrano",
-            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Escudo_del_Club_Atl%C3%A9tico_Belgrano.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Belgrano.svg.png",
-            "pj": 11,
-            "pg": 5,
-            "pe": 4,
-            "pp": 2,
-            "gf": 12,
-            "gc": 9,
-            "dg": 3,
-            "pts": 19
-        },
-        {
-            "posicion": 9,
-            "equipo": "Racing Club",
-            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Racing_Club_de_Avellaneda_logo.svg/1200px-Racing_Club_de_Avellaneda_logo.svg.png",
-            "pj": 11,
-            "pg": 5,
-            "pe": 3,
-            "pp": 3,
-            "gf": 15,
-            "gc": 10,
-            "dg": 5,
-            "pts": 18
-        },
-        {
-            "posicion": 10,
-            "equipo": "Talleres de Córdoba",
-            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Escudo_del_Club_Atl%C3%A9tico_Talleres.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Talleres.svg.png",
-            "pj": 12,
-            "pg": 5,
-            "pe": 3,
-            "pp": 4,
-            "gf": 12,
-            "gc": 11,
-            "dg": 1,
-            "pts": 18
-        }
-    ]
+  "torneo": "Liga Profesional de Fútbol 2026",
+  "ultima_actualizacion": "2026-04-04",
+  "posiciones": [
+    {
+      "posicion": 1,
+      "equipo": "Vélez Sarsfield",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/VelezSarsfield.svg/1200px-VelezSarsfield.svg.png",
+      "pj": 12, "pg": 6, "pe": 4, "pp": 2, "gf": 14, "gc": 9, "dg": 5, "pts": 22,
+      "forma": ["V", "E", "V", "V", "D"]
+    },
+    {
+      "posicion": 2,
+      "equipo": "Estudiantes de La Plata",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Escudo_del_Club_Estudiantes_de_La_Plata.svg/1200px-Escudo_del_Club_Estudiantes_de_La_Plata.svg.png",
+      "pj": 12, "pg": 6, "pe": 3, "pp": 3, "gf": 14, "gc": 6, "dg": 8, "pts": 21,
+      "forma": ["E", "V", "D", "V", "V"]
+    },
+    {
+      "posicion": 3,
+      "equipo": "Boca Juniors",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Boca_Juniors_logo1.svg/1200px-Boca_Juniors_logo1.svg.png",
+      "pj": 12, "pg": 5, "pe": 5, "pp": 2, "gf": 14, "gc": 7, "dg": 7, "pts": 20,
+      "forma": ["V", "V", "E", "E", "D"]
+    },
+    {
+      "posicion": 4,
+      "equipo": "River Plate",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/River_Plate_crest.svg/1200px-River_Plate_crest.svg.png",
+      "pj": 11, "pg": 6, "pe": 2, "pp": 3, "gf": 14, "gc": 9, "dg": 5, "pts": 20,
+      "forma": ["D", "V", "V", "E", "V"]
+    },
+    {
+      "posicion": 5,
+      "equipo": "Argentinos Juniors",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Escudo_del_Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors.svg/1200px-Escudo_del_Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors.svg.png",
+      "pj": 11, "pg": 5, "pe": 5, "pp": 1, "gf": 10, "gc": 5, "dg": 5, "pts": 20,
+      "forma": ["E", "E", "V", "V", "E"]
+    },
+    {
+      "posicion": 6,
+      "equipo": "Defensa y Justicia",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Defensa_y_Justicia_logo.svg/1200px-Defensa_y_Justicia_logo.svg.png",
+      "pj": 11, "pg": 4, "pe": 7, "pp": 0, "gf": 15, "gc": 8, "dg": 7, "pts": 19,
+      "forma": ["E", "V", "E", "E", "E"]
+    },
+    {
+      "posicion": 7,
+      "equipo": "Club Atlético Unión",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe.svg.png",
+      "pj": 12, "pg": 5, "pe": 4, "pp": 3, "gf": 18, "gc": 12, "dg": 6, "pts": 19,
+      "forma": ["V", "D", "D", "V", "E"]
+    },
+    {
+      "posicion": 8,
+      "equipo": "Club Atlético Belgrano",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Escudo_del_Club_Atl%C3%A9tico_Belgrano.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Belgrano.svg.png",
+      "pj": 11, "pg": 5, "pe": 4, "pp": 2, "gf": 12, "gc": 9, "dg": 3, "pts": 19,
+      "forma": ["V", "E", "V", "D", "E"]
+    },
+    {
+      "posicion": 9,
+      "equipo": "Racing Club",
+      "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Racing_Club_de_Avellaneda_logo.svg/1200px-Racing_Club_de_Avellaneda_logo.svg.png",
+      "pj": 11, "pg": 5, "pe": 3, "pp": 3, "gf": 15, "gc": 10, "dg": 5, "pts": 18,
+      "forma": ["D", "D", "V", "E", "V"]
+    },
+    {
+      "posicion": 10,
+      "equipo": "Talleres de Córdoba",
+      "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Escudo_del_Club_Atl%C3%A9tico_Talleres.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Talleres.svg.png",
+      "pj": 12, "pg": 5, "pe": 3, "pp": 4, "gf": 12, "gc": 11, "dg": 1, "pts": 18,
+      "forma": ["D", "V", "E", "D", "V"]
+    }
+  ]
 }

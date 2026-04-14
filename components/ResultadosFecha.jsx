@@ -2,7 +2,7 @@ import data from '../app/resultados.json';
 
 export default function ResultadosFecha() {
     return (
-        <div className="flex flex-col gap-4 h-full bg-surface-container-low">
+        <div className="flex flex-col gap-4 h-fit bg-surface-container-low">
             <h2 className="text-on-background p-4 bg-surface-container w-full font-headline text-xl mb-2 border-l-4 border-primary">
                 Resultados - Fecha {data.fecha_actual}
             </h2>
@@ -14,7 +14,7 @@ export default function ResultadosFecha() {
             {data.partidos.map((partido) => (
                 <div
                     key={partido.id}
-                    className="bg-surface-container mx-4 mb-4 h-full hover:bg-surface-container-high transition-colors flex items-center justify-between"
+                    className="bg-surface-container mx-4 mb-4 xl:h-30 hover:bg-surface-container-high transition-colors flex items-center justify-between"
                 >
                     {/* Equipo Local */}
                     <div className="flex-1 text-right font-body text-on-surface font-medium">

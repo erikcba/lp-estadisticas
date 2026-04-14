@@ -7,6 +7,10 @@ import dataZonaA from "./data/zona-a.json";
 import dataZonaB from "./data/zona-b.json";
 import { useState } from "react";
 import ZonaSelector from "../components/ZonaSelector";
+import TopList from "@/components/TopList";
+import goleadores from "./data/goleadores.json";
+import asistentes from "./data/asistentes.json";
+import vallasInvictas from "./data/vallas-invictas.json";
 
 export default function Home() {
 
@@ -23,24 +27,46 @@ export default function Home() {
           <ResultadosFecha />
         </div>
         <div className="col-span-2 flex flex-col gap-4">
-          <ZonaSelector
-            zonaActiva={zonaActiva}
-            setZonaActiva={setZonaActiva}
-          />
-          <div className="w-full">
-            <div className="animate-in fade-in duration-500">
-              {zonaActiva === 'A' ? (
-                <TablaPosiciones
-                  titulo="Zona A"
-                  equipos={dataZonaA.posiciones}
-                />
-              ) : (
-                <TablaPosiciones
-                  titulo="Zona B"
-                  equipos={dataZonaB.posiciones}
-                />
-              )}
+          <div className="flex flex-col gap-4 bg-surface-container-lowest pt-4 ">
+            <ZonaSelector
+              zonaActiva={zonaActiva}
+              setZonaActiva={setZonaActiva}
+            />
+            <div className="w-full">
+              <div className="animate-in fade-in duration-500">
+                {zonaActiva === 'A' ? (
+                  <TablaPosiciones
+                    titulo="Zona A"
+                    equipos={dataZonaA.posiciones}
+                  />
+                ) : (
+                  <TablaPosiciones
+                    titulo="Zona B"
+                    equipos={dataZonaB.posiciones}
+                  />
+                )}
+              </div>
             </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <TopList
+              titulo="Goleadores"
+              datos={goleadores.data}
+              metrica="goles"
+              labelMetrica="Goles"
+            />
+            <TopList
+              titulo="Maximos Asistidores"
+              datos={asistentes.data}
+              metrica="asistencias"
+              labelMetrica="Asistencias"
+            />
+            <TopList
+              titulo="Vallas Invictas"
+              datos={vallasInvictas.data}
+              metrica="vallas_invictas"
+              labelMetrica="Vallas Invictas"
+            />
           </div>
         </div>
       </div>

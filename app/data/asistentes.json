@@ -1,0 +1,41 @@
+{
+  "categoria": "Máximos Asistentes",
+  "torneo": "Liga Profesional 2026",
+  "data": [
+    {
+      "id": 1,
+      "jugador": "Kevin Zenón",
+      "equipo": "Boca Juniors",
+      "asistencias": 7,
+      "pj": 12
+    },
+    {
+      "id": 2,
+      "jugador": "Claudio Echeverri",
+      "equipo": "River Plate",
+      "asistencias": 6,
+      "pj": 10
+    },
+    {
+      "id": 3,
+      "jugador": "Juanfer Quintero",
+      "equipo": "Racing Club",
+      "asistencias": 6,
+      "pj": 13
+    },
+    {
+      "id": 4,
+      "jugador": "Jaminton Campaz",
+      "equipo": "Rosario Central",
+      "asistencias": 5,
+      "pj": 12
+    },
+    {
+      "id": 5,
+      "jugador": "Esequiel Barco",
+      "equipo": "River Plate",
+      "asistencias": 5,
+      "pj": 13
+    }
+  ]
+}

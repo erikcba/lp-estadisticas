@@ -1,0 +1,46 @@
+{
+  "categoria": "Vallas Invictas",
+  "torneo": "Liga Profesional 2026",
+  "data": [
+    {
+      "id": 1,
+      "jugador": "Franco Armani",
+      "equipo": "River Plate",
+      "vallas_invictas": 8,
+      "goles_recibidos": 5,
+      "pj": 13
+    },
+    {
+      "id": 2,
+      "jugador": "Matías Mansilla",
+      "equipo": "Estudiantes LP",
+      "vallas_invictas": 7,
+      "goles_recibidos": 6,
+      "pj": 13
+    },
+    {
+      "id": 3,
+      "jugador": "Sergio Romero",
+      "equipo": "Boca Juniors",
+      "vallas_invictas": 6,
+      "goles_recibidos": 7,
+      "pj": 12
+    },
+    {
+      "id": 4,
+      "jugador": "Rodrigo Rey",
+      "equipo": "Independiente",
+      "vallas_invictas": 5,
+      "goles_recibidos": 9,
+      "pj": 13
+    },
+    {
+      "id": 5,
+      "jugador": "Gabriel Arias",
+      "equipo": "Racing Club",
+      "vallas_invictas": 5,
+      "goles_recibidos": 10,
+      "pj": 13
+    }
+  ]
+}

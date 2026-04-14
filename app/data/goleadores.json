@@ -1,0 +1,46 @@
+{
+  "categoria": "Goleadores",
+  "torneo": "Liga Profesional 2026",
+  "data": [
+    {
+      "id": 1,
+      "jugador": "Miguel Borja",
+      "equipo": "River Plate",
+      "goles": 11,
+      "pj": 13,
+      "promedio": 0.85
+    },
+    {
+      "id": 2,
+      "jugador": "Edinson Cavani",
+      "equipo": "Boca Juniors",
+      "goles": 9,
+      "pj": 12,
+      "promedio": 0.75
+    },
+    {
+      "id": 3,
+      "jugador": "Adrián Martínez",
+      "equipo": "Racing Club",
+      "goles": 8,
+      "pj": 13,
+      "promedio": 0.61
+    },
+    {
+      "id": 4,
+      "jugador": "Mauro Méndez",
+      "equipo": "Estudiantes LP",
+      "goles": 7,
+      "pj": 11,
+      "promedio": 0.63
+    },
+    {
+      "id": 5,
+      "jugador": "Adam Bareiro",
+      "equipo": "San Lorenzo",
+      "goles": 6,
+      "pj": 13,
+      "promedio": 0.46
+    }
+  ]
+}
