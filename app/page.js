@@ -14,6 +14,7 @@ import vallasInvictas from "./data/vallas-invictas.json";
 import PartidoDestacado from "@/components/PartidoDestacado";
 import escudoLocal from "../public/Racing_escudo.png";
 import escudoVisitante from "../public/Escudo_del_Club_Atlético_Independiente.svg.png";
+import EstadisticasDesplegables from "@/components/EstadisticasBtn";
 
 export default function Home() {
 
@@ -31,8 +32,8 @@ export default function Home() {
       escudo: escudoVisitante,
       score: '1'
     },
-     // Si es null, muestra el "VS"
-     score: true,
+    // Si es null, muestra el "VS"
+    score: true,
     fecha: "Domingo 19 de Abril - 17:00hs",
     estadio: "Cilindro de Avellaneda"
   };
@@ -46,32 +47,35 @@ export default function Home() {
         <h1 className="text-secondary font-headline font-semibold text-4xl ">Tabla de posiciones</h1>
       </div>
       <div className="grid grid-cols-6 w-full gap-4">
-        <div className="col-span-4 flex flex-col gap-4">
+        <div className="col-span-4 flex flex-col gap-4 overflow-hidden">
           <PartidoDestacado partido={partido} />
           <ResultadosFecha />
-           <div className="flex w-full  flex-row gap-4">
-            <TopList
-              titulo="Goleadores"
-              datos={goleadores.data}
-              metrica="goles"
-              labelMetrica="Goles"
-              className={'w-1/3'}
-            />
-            <TopList
-              titulo="Maximos Asistidores"
-              datos={asistentes.data}
-              metrica="asistencias"
-              labelMetrica="Asistencias"
-              className={'w-1/3'}
-            />
-            <TopList
-              titulo="Vallas Invictas"
-              datos={vallasInvictas.data}
-              metrica="vallas_invictas"
-              labelMetrica="Vallas Invictas"
-              className={'w-1/3'}
-            />
-          </div>
+          <EstadisticasDesplegables>
+            <div className="flex w-full  flex-row gap-4">
+              <TopList
+                titulo="Goleadores"
+                datos={goleadores.data}
+                metrica="goles"
+                labelMetrica="Goles"
+                className={'w-1/3'}
+              />
+              <TopList
+                titulo="Asistencias"
+                datos={asistentes.data}
+                metrica="asistencias"
+                labelMetrica="Asistencias"
+                className={'w-1/3'}
+              />
+              <TopList
+                titulo="Vallas Invictas"
+                datos={vallasInvictas.data}
+                metrica="vallas_invictas"
+                labelMetrica="Vallas Invictas"
+                className={'w-1/3'}
+              />
+            </div>
+          </EstadisticasDesplegables>
+
         </div>
         <div className="col-span-2 flex flex-col gap-4">
           <div className="flex flex-col gap-4 pt-4 ">
@@ -95,7 +99,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-         
+
         </div>
       </div>
     </div>
