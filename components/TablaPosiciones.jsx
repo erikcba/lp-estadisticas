@@ -12,12 +12,12 @@ const TablaPosiciones = ({ titulo, equipos }) => {
   }
 
   return (
-    <div className="overflow-x-auto bg-surface-container-low">
+    <div className="overflow-x-auto bg-surface-container-low rounded-md shadow-md">
       <h2 className='bg-surface-container text-on-background p-3 border-l-4 border-primary font-headline text-xl'>
         {titulo}
       </h2>
 
-      <table className="w-full text-left border-collapse">
+      <table className="w-full text-left border-collapse ">
         <thead>
           <tr className="bg-surface-container-high text-on-surface">
             <th className="p-3 font-headline">Pos</th>

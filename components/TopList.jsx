@@ -1,7 +1,7 @@
-const TopList = ({ titulo, datos, metrica, labelMetrica }) => {
+const TopList = ({ titulo, datos, metrica, labelMetrica, className }) => {
   return (
-    <div className="bg-surface-container-low  ">
-      <h2 className='bg-surface-container text-on-background p-3 border-l-4 border-primary font-headline text-xl'>
+    <div className={`bg-surface-container-low rounded-md ${className || ''}`}>
+      <h2 className='bg-surface-container text-on-background p-3 border-l-4 rounded-t-md border-primary font-headline text-xl'>
         {titulo}
       </h2>
       <div className="flex flex-col gap-3 px-4 pb-4">

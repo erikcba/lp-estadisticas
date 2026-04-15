@@ -1,9 +1,9 @@
 const ZonaSelector = ({ zonaActiva, setZonaActiva }) => {
   return (
-    <div className="flex bg-surface-container-lowest p-1 border gap-1 border-outline-variant w-fit mx-4">
+    <div className="flex bg-surface-container-lowest rounded-md p-1 border gap-1 border-outline-variant w-fit mx-4">
       <button
         onClick={() => setZonaActiva('A')}
-        className={`px-8 py-2 font-headline hover:cursor-pointer transition-all duration-300 ${
+        className={`px-8 py-2 font-headline rounded-l-sm hover:cursor-pointer transition-all duration-300 ${
           zonaActiva === 'A'
             ? 'bg-primary text-on-primary shadow-lg shadow-primary/20'
             : 'text-on-surface  hover:bg-surface-variant'
@@ -13,7 +13,7 @@ const ZonaSelector = ({ zonaActiva, setZonaActiva }) => {
       </button>
       <button
         onClick={() => setZonaActiva('B')}
-        className={`px-8 py-2 font-headline hover:cursor-pointer transition-all duration-300 ${
+        className={`px-8 py-2 font-headline rounded-r-sm hover:cursor-pointer transition-all duration-300 ${
           zonaActiva === 'B'
             ? 'bg-primary text-on-primary shadow-lg shadow-primary/20'
             : 'text-on-surface hover:bg-surface-variant'
