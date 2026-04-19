@@ -20,12 +20,12 @@ export default function ResultadosFecha() {
     return (
         <div className="flex flex-col gap-2 h-fit rounded-xl bg-surface-container-low overflow-hidden">
             {/* Cabecera con Botones */}
-            <div className="flex items-center justify-between p-4 bg-surface-container border-l-4 border-primary">
-                <h2 className="text-on-background font-headline text-xl">
+            <div className="flex flex-col gap-3 border-l-4 border-primary bg-surface-container p-4 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
+                <h2 className="min-w-0 font-headline text-base text-on-background sm:text-lg lg:text-xl">
                     Partidos - Fecha {data.fecha_actual}
                 </h2>
 
-                <div className="flex gap-2">
+                <div className="flex shrink-0 gap-2 self-end sm:self-auto">
                     <button
                         onClick={() => scroll('left')}
                         className="p-2 rounded-full hover:bg-primary/10 hover:cursor-pointer text-primary transition-colors border border-outline-variant/30"

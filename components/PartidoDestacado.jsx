@@ -1,87 +1,84 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const PartidoDestacado = ({ partido }) => {
-    // partido: { local, visitante, fecha, estadio, torneo, enVivo }
+  return (
+    <div className="relative overflow-hidden rounded-md bg-linear-to-b from-primary-container to-background p-3 text-on-primary-container shadow-xl sm:p-5 md:p-6">
+      {/* Etiqueta de Torneo o En Vivo */}
+      <div className="mb-4 flex flex-col gap-2 sm:mb-6 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
+        {partido.enVivo && (
+          <div className="flex w-fit max-w-full items-center gap-2 rounded-full border border-green-600 bg-green-600/40 px-2.5 py-1 text-white animate-pulse sm:px-3">
+            <span className="h-2 w-2 shrink-0 rounded-full bg-green-500" />
+            <span className="text-[11px] font-bold uppercase sm:text-xs">
+              En Vivo - {partido.minuto || `65'`}
+            </span>
+          </div>
+        )}
+        <span className="w-fit max-w-full rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-on-primary sm:px-3 sm:text-xs sm:tracking-widest">
+          {partido.torneo}
+        </span>
+      </div>
 
-    return (
-        <div className="relative overflow-hidden bg-linear-to-b from-primary-container to-background text-on-primary-container rounded-md p-6 shadow-xl">
-
-            {/* Etiqueta de Torneo o En Vivo */}
-            <div className="flex justify-between items-center mb-6">
-                {partido.enVivo && (
-                    <div className="flex items-center gap-2 bg-green-600/40 border border-green-600 text-white px-3 py-1 rounded-full animate-pulse">
-                        <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                        <span className="text-xs font-bold uppercase">En Vivo - {partido.minuto || `65'`}</span>
-                    </div>
-                )}
-                <span className="bg-primary text-on-primary px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase">
-                    {partido.torneo}
-                </span>
-            </div>
-
-            {/* Versus Principal */}
-            <div className="flex items-center justify-around gap-4">
-
-                {/* Local */}
-                <div className="flex flex-col items-center gap-3 flex-1">
-                    <div className="relative w-20 h-20 md:w-24 md:h-24 drop-shadow-lg">
-                        <Image
-                            src={partido.local.escudo}
-                            alt={partido.local.nombre}
-                            fill
-                            className="object-contain"
-                            unoptimized
-                        />
-                    </div>
-                    <span className="font-headline text-lg md:text-2xl font-bold text-center leading-tight">
-                        {partido.local.nombre}
-                    </span>
-                </div>
-
-                {/* Marcador o VS */}
-                <div className="flex flex-col items-center">
-                    {partido.score ? (
-                        <div className="flex items-center gap-4">
-                            <span className="text-4xl md:text-6xl text-white font-black">{partido.local.score}</span>
-                            <span className="text-xl md:text-2xl text-white font-black">-</span>
-                            <span className="text-4xl md:text-6xl text-white font-black">{partido.visitante.score}</span>
-                        </div>
-                    ) : (
-                        <div className="text-2xl md:text-4xl font-black opacity-30 italic">VS</div>
-                    )}
-                </div>
-
-                {/* Visitante */}
-                <div className="flex flex-col items-center gap-3 flex-1">
-                    <div className="relative w-20 h-20 md:w-24 md:h-24 drop-shadow-lg">
-                        <Image
-                            src={partido.visitante.escudo}
-                            alt={partido.visitante.nombre}
-                            fill
-                            className="object-contain"
-                            unoptimized
-                        />
-                    </div>
-                    <span className="font-headline text-lg md:text-2xl font-bold text-center leading-tight">
-                        {partido.visitante.nombre}
-                    </span>
-                </div>
-            </div>
-
-            {/* Info extra al pie */}
-            <div className="mt-8 pt-4 border-t border-on-primary-container/10 flex flex-col md:flex-row justify-between items-center gap-2 opacity-80 text-sm">
-                <div className="flex items-center gap-2">
-                    <span className="font-medium">{partido.fecha}</span>
-                </div>
-                <div className="flex items-center gap-2 italic">
-                    <span>{partido.estadio}</span>
-                </div>
-            </div>
-
-            {/* Decoración sutil de fondo (Material Style) */}
-            <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-primary opacity-10 rounded-full blur-3xl"></div>
+      {/* Marcador: grid para que las columnas laterales puedan encoger sin recortar el centro */}
+      <div className="grid w-full grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-start gap-x-1 gap-y-2 sm:items-center sm:gap-x-2 md:gap-x-4">
+        {/* Local */}
+        <div className="flex min-w-0 flex-col items-center gap-2 sm:gap-3">
+          <div className="relative h-14 w-14 shrink-0 sm:h-20 sm:w-20 md:h-24 md:w-24">
+            <Image
+              src={partido.local.escudo}
+              alt={partido.local.nombre}
+              fill
+              className="object-contain drop-shadow-lg"
+              unoptimized
+            />
+          </div>
+          <span className="w-full max-w-full wrap-break-word px-0.5 text-center font-headline text-xs font-bold leading-snug sm:text-base md:text-xl lg:text-2xl">
+            {partido.local.nombre}
+          </span>
         </div>
-    );
+
+        {/* Marcador o VS */}
+        <div className="flex min-w-0 flex-col items-center justify-center self-center px-0.5 sm:px-1">
+          {partido.score ? (
+            <div className="flex items-center gap-0.5 sm:gap-1 md:gap-3">
+              <span className="text-2xl font-black tabular-nums text-white sm:text-4xl md:text-5xl lg:text-6xl">
+                {partido.local.score}
+              </span>
+              <span className="text-base font-black text-white sm:text-xl md:text-2xl">-</span>
+              <span className="text-2xl font-black tabular-nums text-white sm:text-4xl md:text-5xl lg:text-6xl">
+                {partido.visitante.score}
+              </span>
+            </div>
+          ) : (
+            <div className="text-xl font-black italic opacity-30 sm:text-2xl md:text-4xl">VS</div>
+          )}
+        </div>
+
+        {/* Visitante */}
+        <div className="flex min-w-0 flex-col items-center gap-2 sm:gap-3">
+          <div className="relative h-14 w-14 shrink-0 sm:h-20 sm:w-20 md:h-24 md:w-24">
+            <Image
+              src={partido.visitante.escudo}
+              alt={partido.visitante.nombre}
+              fill
+              className="object-contain drop-shadow-lg"
+              unoptimized
+            />
+          </div>
+          <span className="w-full max-w-full wrap-break-word px-0.5 text-center font-headline text-xs font-bold leading-snug sm:text-base md:text-xl lg:text-2xl">
+            {partido.visitante.nombre}
+          </span>
+        </div>
+      </div>
+
+      {/* Info extra al pie */}
+      <div className="mt-6 flex flex-col items-center gap-2 border-t border-on-primary-container/10 pt-4 text-xs opacity-80 sm:mt-8 sm:flex-row sm:justify-between sm:text-sm">
+        <span className="text-center font-medium sm:text-left">{partido.fecha}</span>
+        <span className="text-center italic sm:text-right">{partido.estadio}</span>
+      </div>
+
+      <div className="pointer-events-none absolute -bottom-10 -right-10 h-40 w-40 rounded-full bg-primary opacity-10 blur-3xl" />
+    </div>
+  );
 };
 
 export default PartidoDestacado;
