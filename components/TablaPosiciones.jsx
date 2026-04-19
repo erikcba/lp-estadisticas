@@ -13,27 +13,27 @@ const TablaPosiciones = ({ titulo, equipos }) => {
 
   return (
     <div className="overflow-x-auto bg-surface-container-low rounded-md shadow-md">
-      <h2 className='bg-surface-container text-on-background p-3 border-l-4 border-primary font-headline text-xl'>
+      <h2 className="border-l-4 border-primary bg-surface-container p-3 font-headline text-lg text-on-background sm:text-xl">
         {titulo}
       </h2>
 
-      <table className="w-full text-left border-collapse ">
+      <table className="w-full min-w-[520px] border-collapse text-left text-sm sm:text-base">
         <thead>
           <tr className="bg-surface-container-high text-on-surface">
-            <th className="p-3 font-headline">Pos</th>
-            <th className="p-3 font-headline">Equipo</th>
-            <th className="p-3 font-headline text-center">PJ</th>
-            <th className="p-3 font-headline text-center">DG</th>
-            <th className="p-3 font-headline text-center">Forma</th>
-            <th className="p-3 font-headline text-center bg-primary-container text-on-primary-container">Pts</th>
+            <th className="p-2 font-headline sm:p-3">Pos</th>
+            <th className="p-2 font-headline sm:p-3">Equipo</th>
+            <th className="p-2 text-center font-headline sm:p-3">PJ</th>
+            <th className="p-2 text-center font-headline sm:p-3">DG</th>
+            <th className="p-2 text-center font-headline sm:p-3">Forma</th>
+            <th className="bg-primary-container p-2 text-center font-headline text-on-primary-container sm:p-3">Pts</th>
           </tr>
         </thead>
-        <tbody className="text-on-surface-variant font-body">
+        <tbody className="font-body text-on-surface-variant">
           {equipos.map((team) => (
-            <tr key={team.equipo} className="hover:bg-surface-bright transition-colors border-b border-outline-variant/30">
-              <td className="p-3 font-bold">{team.posicion}</td>
-              <td className="p-3 flex items-center gap-3">
-                <div className="relative w-8 h-8">
+            <tr key={team.equipo} className="border-b border-outline-variant/30 transition-colors hover:bg-surface-bright">
+              <td className="p-2 font-bold sm:p-3">{team.posicion}</td>
+              <td className="flex items-center gap-2 p-2 sm:gap-3 sm:p-3">
+                <div className="relative h-7 w-7 shrink-0 sm:h-8 sm:w-8">
                   <Image
                     src={team.escudo}
                     alt={`Escudo de ${team.equipo}`}
@@ -42,20 +42,22 @@ const TablaPosiciones = ({ titulo, equipos }) => {
                     unoptimized
                   />
                 </div>
-                <span className="font-medium text-on-surface">{team.equipo}</span>
+                <span className="max-w-[140px] truncate font-medium text-on-surface sm:max-w-none sm:whitespace-normal">
+                  {team.equipo}
+                </span>
               </td>
-              <td className="p-3 text-center">{team.pj}</td>
-              <td className={`p-3 text-center font-medium ${team.dg > 0 ? 'text-secondary-fixed' : 'text-error'}`}>
+              <td className="p-2 text-center sm:p-3">{team.pj}</td>
+              <td className={`p-2 text-center font-medium sm:p-3 ${team.dg > 0 ? "text-secondary-fixed" : "text-error"}`}>
                 {team.dg > 0 ? `+${team.dg}` : team.dg}
               </td>
 
               {/* Nueva celda de Forma */}
-              <td className="p-3">
-                <div className="flex gap-1 justify-center">
+              <td className="p-2 sm:p-3">
+                <div className="flex justify-center gap-0.5 sm:gap-1">
                   {team.forma?.map((resultado, index) => (
                     <span
                       key={index}
-                      className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold ${getFormaColor(resultado)}`}
+                      className={`flex h-5 w-5 items-center justify-center rounded-full text-[9px] font-bold sm:h-6 sm:w-6 sm:text-[10px] ${getFormaColor(resultado)}`}
                       title={resultado === 'V' ? 'Victoria' : resultado === 'E' ? 'Empate' : 'Derrota'}
                     >
                       {resultado}
@@ -64,7 +66,7 @@ const TablaPosiciones = ({ titulo, equipos }) => {
                 </div>
               </td>
 
-              <td className="p-3 text-center font-bold text-on-surface bg-surface-container-high/50">{team.pts}</td>
+              <td className="bg-surface-container-high/50 p-2 text-center font-bold text-on-surface sm:p-3">{team.pts}</td>
             </tr>
           ))}
         </tbody>

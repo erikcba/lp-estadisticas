@@ -13,8 +13,10 @@ const EstadisticasDesplegables = ({ children }) => {
             : 'bg-surface-container-low text-on-surface border-outline-variant hover:bg-surface-container-high'
         }`}
       >
-        <div className="flex items-center gap-3">
-          <span className="font-headline font-bold text-lg">Estadísticas personales</span>
+        <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
+          <span className="truncate text-left font-headline text-base font-bold sm:text-lg">
+            Estadísticas personales
+          </span>
           <span className="text-[10px] px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 uppercase tracking-tighter">
             Top 5
           </span>

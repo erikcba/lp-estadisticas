@@ -1,0 +1,184 @@
+{
+  "posts": [
+    {
+      "id": "p_0001",
+      "authorId": "u_01",
+      "authorDisplayName": "TanoAcademia",
+      "club": "Racing Club",
+      "body": "che rojo sorete q carajo fue la ultima vez q gritaste un titulo sin q el var te haga de dt boludo? me pierdo las fechas LA CONCHA DE TU MADRE",
+      "createdAt": "2026-04-19T22:40:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0002",
+      "authorId": "u_02",
+      "authorDisplayName": "ReyDeCopasRojo",
+      "club": "Independiente",
+      "body": "racing cada vez q te nombran titulos se te cae la bombacha al piso pelotudo mirá el techo no el historial de mierda q tenes andá a llorar",
+      "createdAt": "2026-04-19T22:18:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0003",
+      "authorId": "u_03",
+      "authorDisplayName": "XeneizeDeBoedo",
+      "club": "Boca Juniors",
+      "body": "river tranqui LA CONCHA DE TU HERMANA el monumental es re lindo pa sacarse fotos de gil pa levantar copas ultimamente NI EN PEDO boludo",
+      "createdAt": "2026-04-19T21:55:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0004",
+      "authorId": "u_04",
+      "authorDisplayName": "MilloNunez",
+      "club": "River Plate",
+      "body": "boca si la chicana fuera olimpiada ya tendrias 50 medallas todas en excusas y lloriqueos de mierda sorete",
+      "createdAt": "2026-04-19T21:30:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0005",
+      "authorId": "u_05",
+      "authorDisplayName": "CuervoDelGlobo",
+      "club": "San Lorenzo",
+      "body": "huracan sorete mas preocupado por el clasico q por no bajar a la b como siempre prioridades de mierda hincha de barrio",
+      "createdAt": "2026-04-19T21:02:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0006",
+      "authorId": "u_06",
+      "authorDisplayName": "GloboQuemero",
+      "club": "Huracán",
+      "body": "san lorenzo USTEDES tienen estadio en powerpoint sorete te mando un pdf con abrazo y otro con la b q te espera re cagones",
+      "createdAt": "2026-04-19T20:41:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0007",
+      "authorId": "u_07",
+      "authorDisplayName": "PinchaDelCentro",
+      "club": "Estudiantes (LP)",
+      "body": "triperos de mierda el clasico es cuando salis a la calle y te gritan andá a la b de una eso no se agenda boludo",
+      "createdAt": "2026-04-19T20:15:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0008",
+      "authorId": "u_08",
+      "authorDisplayName": "Lobo59",
+      "club": "Gimnasia y Esgrima (LP)",
+      "body": "estudiantes viven del 68 como yo vivo del aguinaldo una vez al año y llorando como putas LA PUTA Q TE PARIO",
+      "createdAt": "2026-04-19T19:48:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0009",
+      "authorId": "u_09",
+      "authorDisplayName": "LeprosoZonaSur",
+      "club": "Newell's Old Boys",
+      "body": "central sorete si el futbol fuera asado ustedes traen el carbon mojado y piden q les firme el humo andá a cagar",
+      "createdAt": "2026-04-19T19:22:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0010",
+      "authorId": "u_10",
+      "authorDisplayName": "CanallaArroyito",
+      "club": "Rosario Central",
+      "body": "newell la lepra contagia y las ganas de ver un partido decente se te mueren manden señal de vida muertos de hambre",
+      "createdAt": "2026-04-19T18:57:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0011",
+      "authorId": "u_11",
+      "authorDisplayName": "FortinDeLiniers",
+      "club": "Vélez Sarsfield",
+      "body": "boca y river se pelean por quien la tiene mas grande y yo aca juntando copas como facturas del monotributo CHUPENLA",
+      "createdAt": "2026-04-19T18:30:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0012",
+      "authorId": "u_12",
+      "authorDisplayName": "CalamarDeVicente",
+      "club": "Platense",
+      "body": "tigre los veo con mas dientes q puntos en la tabla no es chicana es radiografia de pobre boludo",
+      "createdAt": "2026-04-19T18:05:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0013",
+      "authorId": "u_13",
+      "authorDisplayName": "MatadorVictoria",
+      "club": "Tigre",
+      "body": "platense de mierda si el humor fuera gol ustedes estarian jugando el descenso con mimica y llorando en el vestuario",
+      "createdAt": "2026-04-19T17:40:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0014",
+      "authorId": "u_14",
+      "authorDisplayName": "ArseDeSarandi",
+      "club": "Arsenal",
+      "body": "banfield sorete el clasico del sur es como el mate caliente amargo y al final todos se pelean a las puteadas LAVATE EL ORTO",
+      "createdAt": "2026-04-19T17:12:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0015",
+      "authorId": "u_15",
+      "authorDisplayName": "TaladroSur",
+      "club": "Banfield",
+      "body": "arsenal tienen mas nombres raros en la camiseta q chances claras de hacer un gol en tu puta vida",
+      "createdAt": "2026-04-19T16:50:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0016",
+      "authorId": "u_16",
+      "authorDisplayName": "SabaleroPuente",
+      "club": "Colón",
+      "body": "unión de mierda si el clasico santafesino fuera un asado ustedes llegan con pan lactal y piden chimi light andá a laburar",
+      "createdAt": "2026-04-19T16:18:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0017",
+      "authorId": "u_17",
+      "authorDisplayName": "TatengueDeCementerio",
+      "club": "Unión",
+      "body": "colón sorete chicana con respeto gritan y se les cae la voz y la categoria tambien se les cae seguido boludos",
+      "createdAt": "2026-04-19T15:55:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0018",
+      "authorId": "u_18",
+      "authorDisplayName": "DecanoMendoza",
+      "club": "Independiente Rivadavia",
+      "body": "godoy cruz en mendoza el vino es bueno y las chicaneadas son mejores no me hagas buscar el mapa del gol porque no lo vas a encontrar sorete",
+      "createdAt": "2026-04-19T15:28:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0019",
+      "authorId": "u_19",
+      "authorDisplayName": "TombaExpreso",
+      "club": "Godoy Cruz",
+      "body": "la lepra mendocina me tira y yo le devuelvo si la pelota entra piden VAR emocional y se ponen a llorar como nenas",
+      "createdAt": "2026-04-19T15:00:00.000Z",
+      "hidden": false
+    },
+    {
+      "id": "p_0020",
+      "authorId": "u_20",
+      "authorDisplayName": "LoboDeMarDelPlata",
+      "club": "Gimnasia y Esgrima (LP)",
+      "body": "arranco el tablon aca se chicana con amor dolor birra y un toque de terere QUE LA CONCHA DE DIOS bendiga este bardo argentino de mierda",
+      "createdAt": "2026-04-19T14:30:00.000Z",
+      "hidden": false
+    }
+  ]
+}
