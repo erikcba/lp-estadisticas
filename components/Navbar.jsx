@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { cn } from "@/libs/utils";
-import { NAV_LINKS } from "@/libs/nav-links";
+//import { NAV_LINKS } from "@/libs/nav-links";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -97,7 +97,7 @@ const Navbar = () => {
           </div>
 
           <nav className="flex flex-1 flex-col gap-1 overflow-y-auto px-4 py-4">
-            {NAV_LINKS.map((item) => {
+            {/* {NAV_LINKS.map((item) => {
               const isActive = pathname === item.href;
               return (
                 <Link
@@ -113,7 +113,7 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               );
-            })}
+            })} */}
           </nav>
 
           <div className="border-t border-zinc-700/50 px-4 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
