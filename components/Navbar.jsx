@@ -4,15 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { cn } from "@/libs/utils";
-//import { NAV_LINKS } from "@/libs/nav-links";
+import { NAV_LINKS } from "@/libs/nav-links";
 
 const Navbar = () => {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -45,18 +41,18 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden items-center justify-center gap-3 lg:flex lg:gap-4">
-            <button
-              type="button"
+            <Link
+              href="/login"
               className="rounded-sm bg-[#1a2133] px-4 py-3 text-base font-semibold uppercase leading-none text-[#b6c4ff] transition-all ease-in-out hover:cursor-pointer hover:bg-[#203056]"
             >
               Iniciar Sesión
-            </button>
-            <button
-              type="button"
+            </Link>
+            <Link
+              href="/register"
               className="rounded-sm bg-[#05a32d] px-4 py-3 text-base font-semibold uppercase leading-none text-[#030c33] transition-all ease-in-out hover:cursor-pointer hover:bg-[#0ac11f]"
             >
               Crear Cuenta
-            </button>
+            </Link>
           </div>
 
           <button
@@ -97,12 +93,13 @@ const Navbar = () => {
           </div>
 
           <nav className="flex flex-1 flex-col gap-1 overflow-y-auto px-4 py-4">
-            {/* {NAV_LINKS.map((item) => {
+            {NAV_LINKS.map((item) => {
               const isActive = pathname === item.href;
               return (
                 <Link
                   key={item.href}
                   href={item.href}
+                  onClick={() => setMenuOpen(false)}
                   className={cn(
                     "rounded-lg px-4 py-3 text-base font-medium transition-colors",
                     isActive
@@ -113,23 +110,25 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               );
-            })} */}
+            })}
           </nav>
 
           <div className="border-t border-zinc-700/50 px-4 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
             <div className="flex flex-col gap-3">
-              <button
-                type="button"
+              <Link
+                href="/login"
+                onClick={() => setMenuOpen(false)}
                 className="w-full rounded-md bg-[#1a2133] py-3 text-center text-sm font-semibold uppercase tracking-wide text-[#b6c4ff] transition-colors hover:bg-[#203056]"
               >
                 Iniciar Sesión
-              </button>
-              <button
-                type="button"
+              </Link>
+              <Link
+                href="/register"
+                onClick={() => setMenuOpen(false)}
                 className="w-full rounded-md bg-[#05a32d] py-3 text-center text-sm font-semibold uppercase tracking-wide text-[#030c33] transition-colors hover:bg-[#0ac11f]"
               >
                 Crear Cuenta
-              </button>
+              </Link>
             </div>
           </div>
         </div>

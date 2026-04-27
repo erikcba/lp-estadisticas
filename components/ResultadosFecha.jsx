@@ -1,8 +1,7 @@
 "use client"
 import { useRef } from 'react';
-import data from '../app/resultados.json';
 
-export default function ResultadosFecha() {
+export default function ResultadosFecha({ fechaNumero, partidos }) {
     const scrollRef = useRef(null);
 
     const scroll = (direction) => {
@@ -22,7 +21,7 @@ export default function ResultadosFecha() {
             {/* Cabecera con Botones */}
             <div className="flex flex-col gap-3 border-l-4 border-primary bg-surface-container p-4 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
                 <h2 className="min-w-0 font-headline text-base text-on-background sm:text-lg lg:text-xl">
-                    Partidos - Fecha {data.fecha_actual}
+                    Partidos - Fecha {fechaNumero}
                 </h2>
 
                 <div className="flex shrink-0 gap-2 self-end sm:self-auto">
@@ -52,7 +51,7 @@ export default function ResultadosFecha() {
                 ref={scrollRef}
                 className="flex flex-row overflow-x-auto snap-x snap-mandatory scrollbar-hide gap-4 p-4 scroll-smooth"
             >
-                {data.partidos.map((partido) => (
+                {partidos.map((partido) => (
                     <div
                         key={partido.id}
                         className="bg-surface-container-high rounded-2xl p-5 min-w-[280px] md:min-w-[320px] snap-center border border-outline-variant/20 hover:border-primary/30 transition-all flex flex-col gap-4 shadow-sm"
@@ -62,7 +61,7 @@ export default function ResultadosFecha() {
                                     ? 'bg-secondary-fixed text-on-secondary-fixed animate-pulse'
                                     : 'bg-outline-variant/20 text-on-surface-variant'
                                 }`}>
-                                {partido.estado === 'en_curso' ? `• En vivo ${partido.minuto}'` : partido.estado}
+                                {partido.estado === 'en_curso' ? `• En vivo ${partido.minuto || ""}` : (partido.estado || "Programado")}
                             </span>
                         </div>
 
@@ -73,20 +72,20 @@ export default function ResultadosFecha() {
                             </div>
 
                             <div className="flex flex-col items-center justify-center bg-background/50 rounded-xl px-4 py-2 min-w-[60px]">
-                                {partido.estado === 'programado' ? (
-                                    <span className="text-sm font-bold text-primary">{partido.horario}</span>
+                                {!partido.jugado ? (
+                                    <span className="text-sm font-bold text-primary">{partido.dia}</span>
                                 ) : (
                                     <div className="flex flex-col items-center gap-1">
-                                        <span className="text-xl font-black text-on-surface italic">{partido.goles_local}</span>
-                                        <div className="w-full h-[1px] bg-outline-variant/30" />
-                                        <span className="text-xl font-black text-on-surface italic">{partido.goles_visitante}</span>
+                                        <span className="text-xl font-black text-on-surface italic">{partido.resultado?.local ?? "-"}</span>
+                                        <div className="h-px w-full bg-outline-variant/30" />
+                                        <span className="text-xl font-black text-on-surface italic">{partido.resultado?.visitante ?? "-"}</span>
                                     </div>
                                 )}
                             </div>
                         </div>
                     </div>
                 ))}
-                <div className="min-w-[1px] pr-4" />
+                <div className="min-w-px pr-4" />
             </div>
         </div>
     );
