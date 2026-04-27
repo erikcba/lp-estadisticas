@@ -2,8 +2,7 @@
 
 import TablaPosiciones from "@/components/TablaPosiciones";
 import ResultadosFecha from "@/components/ResultadosFecha";
-import dataZonaA from "./data/zona-a.json";
-import dataZonaB from "./data/zona-b.json";
+import torneoData from "@/data/scraping/torneo.json";
 import { useState } from "react";
 import ZonaSelector from "../components/ZonaSelector";
 import TopList from "@/components/TopList";
@@ -11,33 +10,65 @@ import goleadores from "./data/goleadores.json";
 import asistentes from "./data/asistentes.json";
 import vallasInvictas from "./data/vallas-invictas.json";
 import PartidoDestacado from "@/components/PartidoDestacado";
-import escudoLocal from "../public/Racing_escudo.png";
-import escudoVisitante from "../public/Escudo_del_Club_Atlético_Independiente.svg.png";
 import EstadisticasDesplegables from "@/components/EstadisticasBtn";
+import { getClubDataByTeamName } from "@/libs/equipos";
+import { getFeaturedMatch, getPartidosDeFecha } from "@/libs/partidos";
 
 export default function Home() {
 
   const [zonaActiva, setZonaActiva] = useState('A');
-  const featuredData = {
-    torneo: "Copa de la Liga - Fecha 14",
-    enVivo: true,
-    local: {
-      nombre: "Racing Club",
-      escudo: escudoLocal,
-      score: '0'
-    },
-    visitante: {
-      nombre: "Independiente",
-      escudo: escudoVisitante,
-      score: '1'
-    },
-    // Si es null, muestra el "VS"
-    score: true,
-    fecha: "Domingo 19 de Abril - 17:00hs",
-    estadio: "Cilindro de Avellaneda"
-  };
+  const fechaActual = 15;
+  const zonaAEquipos = torneoData.zona_a.map((team) => ({
+    posicion: team.posicion,
+    equipo: team.equipo,
+    escudo: team.escudo,
+    pj: team.pj,
+    dg: team.diferencia_gol,
+    forma: team.ultimos_partidos,
+    pts: team.pts,
+  }));
+  const zonaBEquipos = torneoData.zona_b.map((team) => ({
+    posicion: team.posicion,
+    equipo: team.equipo,
+    escudo: team.escudo,
+    pj: team.pj,
+    dg: team.diferencia_gol,
+    forma: team.ultimos_partidos,
+    pts: team.pts,
+  }));
 
-  const partido = featuredData; // Aquí podrías cargar dinámicamente el partido destacado
+  const partidosFecha = getPartidosDeFecha(fechaActual);
+  const superclasico = getFeaturedMatch("Boca Jrs.", "River", fechaActual);
+  const escudoBoca = getClubDataByTeamName("Boca Jrs.")?.escudo || "";
+  const escudoRiver = getClubDataByTeamName("River")?.escudo || "";
+
+  const partido = superclasico
+    ? {
+      torneo: "Liga Profesional - Fecha 15",
+      enVivo: false,
+      local: {
+        nombre: superclasico.local,
+        escudo: getClubDataByTeamName(superclasico.local)?.escudo || (superclasico.local === "Boca Jrs." ? escudoBoca : escudoRiver),
+        score: superclasico.resultado?.local ?? "-",
+      },
+      visitante: {
+        nombre: superclasico.visitante,
+        escudo: getClubDataByTeamName(superclasico.visitante)?.escudo || (superclasico.visitante === "Boca Jrs." ? escudoBoca : escudoRiver),
+        score: superclasico.resultado?.visitante ?? "-",
+      },
+      score: Boolean(superclasico.jugado),
+      fecha: `${superclasico.dia} - ${superclasico.fecha}`,
+      estadio: "Superclasico Boca vs River",
+    }
+    : {
+      torneo: "Liga Profesional - Fecha 15",
+      enVivo: false,
+      local: { nombre: "Boca Jrs.", escudo: escudoBoca, score: "-" },
+      visitante: { nombre: "River", escudo: escudoRiver, score: "-" },
+      score: false,
+      fecha: "Fecha 15",
+      estadio: "Superclasico",
+    };
 
   return (
     <div className="container mx-auto flex flex-col items-start justify-center gap-5 px-4 pb-10 pt-4 font-sans sm:px-6 sm:pt-5 lg:px-8 lg:pb-10 lg:pt-5">
@@ -52,7 +83,7 @@ export default function Home() {
           <PartidoDestacado partido={partido} />
         </div>
         <div className="order-2 min-w-0 lg:col-span-4 lg:col-start-1 lg:row-start-2 lg:order-0">
-          <ResultadosFecha />
+          <ResultadosFecha fechaNumero={fechaActual} partidos={partidosFecha} />
         </div>
         <div className="order-3 flex min-w-0 flex-col gap-4 lg:col-span-2 lg:col-start-5 lg:row-span-3 lg:row-start-1 lg:order-0">
           <div className="flex flex-col gap-4 lg:pt-4">
@@ -60,9 +91,9 @@ export default function Home() {
             <div className="w-full">
               <div className="animate-in fade-in duration-500">
                 {zonaActiva === "A" ? (
-                  <TablaPosiciones titulo="Zona A" equipos={dataZonaA.posiciones} />
+                  <TablaPosiciones titulo="Zona A" equipos={zonaAEquipos} zonaKey="a" />
                 ) : (
-                  <TablaPosiciones titulo="Zona B" equipos={dataZonaB.posiciones} />
+                  <TablaPosiciones titulo="Zona B" equipos={zonaBEquipos} zonaKey="b" />
                 )}
               </div>
             </div>

@@ -1,0 +1,3157 @@
+{
+  "fuente": "https://www.promiedos.com.ar/league/liga-profesional/hc",
+  "actualizado_en": "2026-04-27T19:16:18.063Z",
+  "torneo": "Liga Profesional Argentina",
+  "total_fechas": 16,
+  "fechas": [
+    {
+      "fecha": "Fecha 1",
+      "partidos": [
+        {
+          "dia": "Jue 22/01",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-defensa-y-justicia/egdbiaa"
+        },
+        {
+          "dia": "Jue 22/01",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-huracan/egdbhij"
+        },
+        {
+          "dia": "Jue 22/01",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-platense/egdbhjf"
+        },
+        {
+          "dia": "Jue 22/01",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-velez-sarsfield/egdbhjg"
+        },
+        {
+          "dia": "Jue 22/01",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-gimnasia-mendoza/egdcbgc"
+        },
+        {
+          "dia": "Vie 23/01",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-lanus/egdbhje"
+        },
+        {
+          "dia": "Vie 23/01",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-estudiantes-de-la-plata/egdbhji"
+        },
+        {
+          "dia": "Vie 23/01",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-atletico-tucuman/egdbhii"
+        },
+        {
+          "dia": "Vie 23/01",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-newell's-old-boys/egdbhjh"
+        },
+        {
+          "dia": "Sáb 24/01",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-river-plate/egdbhjd"
+        },
+        {
+          "dia": "Sáb 24/01",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-racing-club/egdbhjc"
+        },
+        {
+          "dia": "Sáb 24/01",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-belgrano/egdbhjb"
+        },
+        {
+          "dia": "Dom 25/01",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-riestra/egdbhjj"
+        },
+        {
+          "dia": "Dom 25/01",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-sarmiento-junin/egdbhja"
+        },
+        {
+          "dia": "Dom 25/01",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-estudiantes-rio-cuarto/egdcbgb"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 2",
+      "partidos": [
+        {
+          "dia": "Lun 26/01",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-instituto-ac-cordoba/egdbhif"
+        },
+        {
+          "dia": "Mar 27/01",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-talleres-cordoba/egdbhie"
+        },
+        {
+          "dia": "Mar 27/01",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-independiente-rivadavia/egdbhia"
+        },
+        {
+          "dia": "Mar 27/01",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-san-lorenzo/egdcbga"
+        },
+        {
+          "dia": "Mar 27/01",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-independiente/egdbhid"
+        },
+        {
+          "dia": "Mar 27/01",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-central-cordoba-sde/egdbhih"
+        },
+        {
+          "dia": "Mié 28/01",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-barracas-central/egdbhhf"
+        },
+        {
+          "dia": "Mié 28/01",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-rosario-central/egdbhhh"
+        },
+        {
+          "dia": "Mié 28/01",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-gimnasia-la-plata/egdbhhg"
+        },
+        {
+          "dia": "Mié 28/01",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-boca-juniors/egdbhic"
+        },
+        {
+          "dia": "Jue 29/01",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-defensa-y-justicia/egdbhib"
+        },
+        {
+          "dia": "Jue 29/01",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-tigre/egdbhhi"
+        },
+        {
+          "dia": "Jue 29/01",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-union-santa-fe/egdbhig"
+        },
+        {
+          "dia": "Jue 29/01",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-banfield/egdbhhj"
+        },
+        {
+          "dia": "Jue 29/01",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-argentinos-juniors/egdcbfj"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 3",
+      "partidos": [
+        {
+          "dia": "Sáb 31/01",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-central-cordoba-sde/egdbhgi"
+        },
+        {
+          "dia": "Sáb 31/01",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-velez-sarsfield/egdbhhb"
+        },
+        {
+          "dia": "Sáb 31/01",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-huracan/egdbhgc"
+        },
+        {
+          "dia": "Sáb 31/01",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-platense/egdbhha"
+        },
+        {
+          "dia": "Dom 01/02",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-riestra/egdbhhe"
+        },
+        {
+          "dia": "Dom 01/02",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-newell's-old-boys/egdbhhc"
+        },
+        {
+          "dia": "Dom 01/02",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-river-plate/egdbhgg"
+        },
+        {
+          "dia": "Lun 02/02",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-aldosivi/egdbhgh"
+        },
+        {
+          "dia": "Lun 02/02",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-racing-club/egdbhgf"
+        },
+        {
+          "dia": "Lun 02/02",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-estudiantes-de-la-plata/egdbhhd"
+        },
+        {
+          "dia": "Lun 02/02",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-belgrano/egdbhge"
+        },
+        {
+          "dia": "Lun 02/02",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 4,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-gimnasia-mendoza/egdcbfi"
+        },
+        {
+          "dia": "Mar 03/02",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-estudiantes-rio-cuarto/egdcbfh"
+        },
+        {
+          "dia": "Mar 03/02",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-sarmiento-junin/egdbhgd"
+        },
+        {
+          "dia": "Mar 03/02",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-lanus/egdbhgj"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 4",
+      "partidos": [
+        {
+          "dia": "Vie 06/02",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-union-santa-fe/egdbhga"
+        },
+        {
+          "dia": "Sáb 07/02",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-rosario-central/egdbhfa"
+        },
+        {
+          "dia": "Sáb 07/02",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-argentinos-juniors/egdbhfc"
+        },
+        {
+          "dia": "Sáb 07/02",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 4
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-tigre/egdbhfb"
+        },
+        {
+          "dia": "Sáb 07/02",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-banfield/egdbhfd"
+        },
+        {
+          "dia": "Sáb 07/02",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-defensa-y-justicia/egdbhfg"
+        },
+        {
+          "dia": "Dom 08/02",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-atletico-tucuman/egdbhfe"
+        },
+        {
+          "dia": "Dom 08/02",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-independiente/egdbhfi"
+        },
+        {
+          "dia": "Dom 08/02",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-san-lorenzo/egdbhgb"
+        },
+        {
+          "dia": "Dom 08/02",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-boca-juniors/egdbhfh"
+        },
+        {
+          "dia": "Dom 08/02",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-instituto-ac-cordoba/egdcbfg"
+        },
+        {
+          "dia": "Lun 09/02",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-gimnasia-la-plata/egdbhej"
+        },
+        {
+          "dia": "Lun 09/02",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-riestra/egdbhff"
+        },
+        {
+          "dia": "Lun 09/02",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-talleres-cordoba/egdbhfj"
+        },
+        {
+          "dia": "Lun 09/02",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-independiente-rivadavia/egdcbff"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 5",
+      "partidos": [
+        {
+          "dia": "Jue 12/02",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-aldosivi/egdbhea"
+        },
+        {
+          "dia": "Jue 12/02",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-river-plate/egdbhdj"
+        },
+        {
+          "dia": "Vie 13/02",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-lanus/egdbhee"
+        },
+        {
+          "dia": "Vie 13/02",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-san-lorenzo/egdbhec"
+        },
+        {
+          "dia": "Vie 13/02",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-velez-sarsfield/egdbheg"
+        },
+        {
+          "dia": "Sáb 14/02",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-racing-club/egdbhdh"
+        },
+        {
+          "dia": "Sáb 14/02",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-sarmiento-junin/egdbhdg"
+        },
+        {
+          "dia": "Sáb 14/02",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-gimnasia-mendoza/egdcbfe"
+        },
+        {
+          "dia": "Sáb 14/02",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-belgrano/egdbhdi"
+        },
+        {
+          "dia": "Sáb 14/02",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 4,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-estudiantes-rio-cuarto/egdcbfd"
+        },
+        {
+          "dia": "Dom 15/02",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-estudiantes-de-la-plata/egdbhei"
+        },
+        {
+          "dia": "Dom 15/02",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-platense/egdbhef"
+        },
+        {
+          "dia": "Dom 15/02",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-barracas-central/egdbheb"
+        },
+        {
+          "dia": "Dom 15/02",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-central-cordoba-sde/egdbhed"
+        },
+        {
+          "dia": "Lun 16/02",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-newell's-old-boys/egdbheh"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 6",
+      "partidos": [
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-belgrano/egdbhdb"
+        },
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-sarmiento-junin/egdbhdc"
+        },
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-atletico-tucuman/egdbhcg"
+        },
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-racing-club/egdbhcj"
+        },
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-talleres-cordoba/egdbhdd"
+        },
+        {
+          "dia": "Vie 20/02",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-gimnasia-la-plata/egdcbfb"
+        },
+        {
+          "dia": "Sáb 21/02",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-independiente/egdbhci"
+        },
+        {
+          "dia": "Sáb 21/02",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-barracas-central/egdbhde"
+        },
+        {
+          "dia": "Sáb 21/02",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-newell's-old-boys/egdbhcd"
+        },
+        {
+          "dia": "Sáb 21/02",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-huracan/egdbhce"
+        },
+        {
+          "dia": "Sáb 21/02",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-tigre/egdbhcf"
+        },
+        {
+          "dia": "Dom 22/02",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-estudiantes-rio-cuarto/egdcbfc"
+        },
+        {
+          "dia": "Dom 22/02",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-river-plate/egdbhdf"
+        },
+        {
+          "dia": "Dom 22/02",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-aldosivi/egdbhch"
+        },
+        {
+          "dia": "Jue 26/03",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-lanus/egdbhda"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 7",
+      "partidos": [
+        {
+          "dia": "Mar 24/02",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-defensa-y-justicia/egdbhbi"
+        },
+        {
+          "dia": "Mar 24/02",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-instituto-ac-cordoba/egdbhcb"
+        },
+        {
+          "dia": "Mar 24/02",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-talleres-cordoba/egdbhca"
+        },
+        {
+          "dia": "Mar 24/02",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-atletico-tucuman/egdbhbf"
+        },
+        {
+          "dia": "Mar 24/02",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-independiente/egdcbfa"
+        },
+        {
+          "dia": "Mié 25/02",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-rosario-central/egdbhba"
+        },
+        {
+          "dia": "Mié 25/02",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-tigre/egdbhbb"
+        },
+        {
+          "dia": "Mié 25/02",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-estudiantes-de-la-plata/egdbhbg"
+        },
+        {
+          "dia": "Mié 25/02",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-riestra/egdbhbh"
+        },
+        {
+          "dia": "Jue 26/02",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-independiente-rivadavia/egdbhbe"
+        },
+        {
+          "dia": "Jue 26/02",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-union-santa-fe/egdbhcc"
+        },
+        {
+          "dia": "Jue 26/02",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-banfield/egdbhbd"
+        },
+        {
+          "dia": "Jue 26/02",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-huracan/egdcbej"
+        },
+        {
+          "dia": "Mié 04/03",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-boca-juniors/egdbhbj"
+        },
+        {
+          "dia": "Mar 31/03",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-argentinos-juniors/egdbhbc"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 8",
+      "partidos": [
+        {
+          "dia": "Sáb 28/02",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-gimnasia-mendoza/egdcbei"
+        },
+        {
+          "dia": "Sáb 28/02",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-central-cordoba-sde/egdbhaf"
+        },
+        {
+          "dia": "Sáb 28/02",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-san-lorenzo/egdbhae"
+        },
+        {
+          "dia": "Dom 01/03",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-rosario-central/egdbhai"
+        },
+        {
+          "dia": "Dom 01/03",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-barracas-central/egdbhab"
+        },
+        {
+          "dia": "Dom 01/03",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-union-santa-fe/egdbhad"
+        },
+        {
+          "dia": "Dom 01/03",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-gimnasia-la-plata/egdbhac"
+        },
+        {
+          "dia": "Dom 01/03",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-lanus/egdbhag"
+        },
+        {
+          "dia": "Lun 02/03",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-platense/egdbhah"
+        },
+        {
+          "dia": "Lun 02/03",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-velez-sarsfield/egdbhaj"
+        },
+        {
+          "dia": "Lun 02/03",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-river-plate/egdbgjj"
+        },
+        {
+          "dia": "Lun 02/03",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-aldosivi/egdbhaa"
+        },
+        {
+          "dia": "Mar 03/03",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-estudiantes-rio-cuarto/egdcbeh"
+        },
+        {
+          "dia": "Mar 03/03",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-belgrano/egdbgjh"
+        },
+        {
+          "dia": "Mar 03/03",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-racing-club/egdbgji"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 9",
+      "partidos": [
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Central",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-tigre/egdbgie"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Gimnasia",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-argentinos-juniors/egdbgif"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Barracas",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-banfield/egdbgig"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Aldosivi",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-independiente-rivadavia/egdbgih"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "River",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-atletico-tucuman/egdbgii"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Racing",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-huracan/egdbgij"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Belgrano",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-sarmiento-junin/egdbgja"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Vélez",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-newell's-old-boys/egdbgjb"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Platense",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-estudiantes-de-la-plata/egdbgjc"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Lanús",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-riestra/egdbgjd"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Central Córdoba",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-boca-juniors/egdbgje"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "San Lorenzo",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-independiente/egdbgjf"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Unión",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-talleres-cordoba/egdbgjg"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Gimnasia (M)",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-defensa-y-justicia/egdcbef"
+        },
+        {
+          "dia": "Dom 03/05",
+          "estado": null,
+          "local": "Estudiantes RC",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-instituto-ac-cordoba/egdcbeg"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 10",
+      "partidos": [
+        {
+          "dia": "Mar 10/03",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-velez-sarsfield/egdbghc"
+        },
+        {
+          "dia": "Mar 10/03",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 4,
+            "visitante": 4
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-union-santa-fe/egdbgib"
+        },
+        {
+          "dia": "Mar 10/03",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-platense/egdbghd"
+        },
+        {
+          "dia": "Mar 10/03",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-racing-club/egdbghf"
+        },
+        {
+          "dia": "Mié 11/03",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-gimnasia-la-plata/egdbghi"
+        },
+        {
+          "dia": "Mié 11/03",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-rosario-central/egdbghj"
+        },
+        {
+          "dia": "Mié 11/03",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-san-lorenzo/egdbgic"
+        },
+        {
+          "dia": "Mié 11/03",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-aldosivi/egdbghg"
+        },
+        {
+          "dia": "Mié 11/03",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-barracas-central/egdbghh"
+        },
+        {
+          "dia": "Jue 12/03",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-central-cordoba-sde/egdbgid"
+        },
+        {
+          "dia": "Jue 12/03",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-gimnasia-mendoza/egdcbee"
+        },
+        {
+          "dia": "Jue 12/03",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-instituto-ac-cordoba/egdbgia"
+        },
+        {
+          "dia": "Jue 12/03",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-belgrano/egdcbed"
+        },
+        {
+          "dia": "Jue 12/03",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-river-plate/egdbghe"
+        },
+        {
+          "dia": "Vie 13/03",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-lanus/egdbghb"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 11",
+      "partidos": [
+        {
+          "dia": "Sáb 14/03",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-velez-sarsfield/egdbggf"
+        },
+        {
+          "dia": "Sáb 14/03",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-banfield/egdbgfj"
+        },
+        {
+          "dia": "Dom 15/03",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-independiente-rivadavia/egdbgga"
+        },
+        {
+          "dia": "Dom 15/03",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-talleres-cordoba/egdbgha"
+        },
+        {
+          "dia": "Dom 15/03",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-sarmiento-junin/egdbggd"
+        },
+        {
+          "dia": "Dom 15/03",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-argentinos-juniors/egdbgfi"
+        },
+        {
+          "dia": "Dom 15/03",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-boca-juniors/egdbggi"
+        },
+        {
+          "dia": "Lun 16/03",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-atletico-tucuman/egdbggb"
+        },
+        {
+          "dia": "Lun 16/03",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-huracan/egdbggc"
+        },
+        {
+          "dia": "Lun 16/03",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 5
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-defensa-y-justicia/egdbggh"
+        },
+        {
+          "dia": "Lun 16/03",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-estudiantes-rio-cuarto/egdcbeb"
+        },
+        {
+          "dia": "Lun 16/03",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-independiente/egdbggj"
+        },
+        {
+          "dia": "Mar 17/03",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 5,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-newell's-old-boys/egdbgge"
+        },
+        {
+          "dia": "Mar 17/03",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-riestra/egdbggg"
+        },
+        {
+          "dia": "Mar 17/03",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-estudiantes-de-la-plata/egdcbec"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 12",
+      "partidos": [
+        {
+          "dia": "Vie 20/03",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-gimnasia-la-plata/egdbgei"
+        },
+        {
+          "dia": "Vie 20/03",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-tigre/egdbgfa"
+        },
+        {
+          "dia": "Sáb 21/03",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-lanus/egdbgfg"
+        },
+        {
+          "dia": "Sáb 21/03",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-union-santa-fe/egdbgfd"
+        },
+        {
+          "dia": "Sáb 21/03",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-gimnasia-mendoza/egdcbea"
+        },
+        {
+          "dia": "Sáb 21/03",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-talleres-cordoba/egdbgfb"
+        },
+        {
+          "dia": "Sáb 21/03",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-racing-club/egdbgef"
+        },
+        {
+          "dia": "Dom 22/03",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-aldosivi/egdbgeg"
+        },
+        {
+          "dia": "Dom 22/03",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-river-plate/egdcbdj"
+        },
+        {
+          "dia": "Dom 22/03",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-instituto-ac-cordoba/egdbgfc"
+        },
+        {
+          "dia": "Dom 22/03",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-rosario-central/egdbgej"
+        },
+        {
+          "dia": "Dom 22/03",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-platense/egdbgfh"
+        },
+        {
+          "dia": "Lun 23/03",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 5,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-central-cordoba-sde/egdbgff"
+        },
+        {
+          "dia": "Lun 23/03",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-barracas-central/egdbgeh"
+        },
+        {
+          "dia": "Mié 25/03",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-san-lorenzo/egdbgfe"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 13",
+      "partidos": [
+        {
+          "dia": "Mié 01/04",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-platense/egdbgdi"
+        },
+        {
+          "dia": "Jue 02/04",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-sarmiento-junin/egdbgdg"
+        },
+        {
+          "dia": "Jue 02/04",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-independiente-rivadavia/egdbgdd"
+        },
+        {
+          "dia": "Jue 02/04",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-boca-juniors/egdbged"
+        },
+        {
+          "dia": "Vie 03/04",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-velez-sarsfield/egdcbdi"
+        },
+        {
+          "dia": "Vie 03/04",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-riestra/egdbgeb"
+        },
+        {
+          "dia": "Vie 03/04",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-estudiantes-de-la-plata/egdbgea"
+        },
+        {
+          "dia": "Sáb 04/04",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-estudiantes-rio-cuarto/egdcbdh"
+        },
+        {
+          "dia": "Sáb 04/04",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-racing-club/egdbgee"
+        },
+        {
+          "dia": "Sáb 04/04",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-atletico-tucuman/egdbgde"
+        },
+        {
+          "dia": "Dom 05/04",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-huracan/egdbgdf"
+        },
+        {
+          "dia": "Dom 05/04",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-belgrano/egdbgdh"
+        },
+        {
+          "dia": "Dom 05/04",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-newell's-old-boys/egdbgdj"
+        },
+        {
+          "dia": "Lun 06/04",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-banfield/egdbgdc"
+        },
+        {
+          "dia": "Lun 06/04",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-defensa-y-justicia/egdbgec"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 14",
+      "partidos": [
+        {
+          "dia": "Vie 10/04",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-aldosivi/egdbgch"
+        },
+        {
+          "dia": "Sáb 11/04",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-instituto-ac-cordoba/egdbgcb"
+        },
+        {
+          "dia": "Sáb 11/04",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-argentinos-juniors/egdbgdb"
+        },
+        {
+          "dia": "Sáb 11/04",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-union-santa-fe/egdbgcc"
+        },
+        {
+          "dia": "Sáb 11/04",
+          "estado": "Final",
+          "local": "Boca Jrs.",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/boca-juniors-vs-independiente/egdbgbj"
+        },
+        {
+          "dia": "Sáb 11/04",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-barracas-central/egdcbdg"
+        },
+        {
+          "dia": "Dom 12/04",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-san-lorenzo/egdbgcd"
+        },
+        {
+          "dia": "Dom 12/04",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-gimnasia-mendoza/egdcbdf"
+        },
+        {
+          "dia": "Dom 12/04",
+          "estado": "Final",
+          "local": "Huracán",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-rosario-central/egdbgcj"
+        },
+        {
+          "dia": "Dom 12/04",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-tigre/egdbgda"
+        },
+        {
+          "dia": "Dom 12/04",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "River",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-river-plate/egdbgcg"
+        },
+        {
+          "dia": "Lun 13/04",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-talleres-cordoba/egdbgca"
+        },
+        {
+          "dia": "Lun 13/04",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-gimnasia-la-plata/egdbgci"
+        },
+        {
+          "dia": "Lun 13/04",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-banfield/egdbgcf"
+        },
+        {
+          "dia": "Lun 13/04",
+          "estado": "Final",
+          "local": "Vélez",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-central-cordoba-sde/egdbgce"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 15",
+      "partidos": [
+        {
+          "dia": "Vie 17/04",
+          "estado": "Final",
+          "local": "Unión",
+          "visitante": "Newell's",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/union-santa-fe-vs-newell's-old-boys/egdbgbe"
+        },
+        {
+          "dia": "Sáb 18/04",
+          "estado": "Final",
+          "local": "Gimnasia",
+          "visitante": "Estudiantes RC",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-la-plata-vs-estudiantes-rio-cuarto/egdcbdd"
+        },
+        {
+          "dia": "Sáb 18/04",
+          "estado": "Final",
+          "local": "Instituto",
+          "visitante": "Estudiantes",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-estudiantes-de-la-plata/egdbgbf"
+        },
+        {
+          "dia": "Sáb 18/04",
+          "estado": "Final",
+          "local": "Independiente",
+          "visitante": "Defensa",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-vs-defensa-y-justicia/egdbgbh"
+        },
+        {
+          "dia": "Sáb 18/04",
+          "estado": "Final",
+          "local": "Argentinos",
+          "visitante": "Atl. Tucumán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/argentinos-juniors-vs-atletico-tucuman/egdbgag"
+        },
+        {
+          "dia": "Dom 19/04",
+          "estado": "Final",
+          "local": "Aldosivi",
+          "visitante": "Racing",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/aldosivi-vs-racing-club/egdbgbb"
+        },
+        {
+          "dia": "Dom 19/04",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-boca-juniors/egdbgbi"
+        },
+        {
+          "dia": "Dom 19/04",
+          "estado": "Final",
+          "local": "Central",
+          "visitante": "Sarmiento",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/rosario-central-vs-sarmiento-junin/egdbgaj"
+        },
+        {
+          "dia": "Dom 19/04",
+          "estado": "Final",
+          "local": "Talleres",
+          "visitante": "Riestra",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/talleres-cordoba-vs-riestra/egdbgbg"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "Barracas",
+          "visitante": "Belgrano",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/barracas-central-vs-belgrano/egdbgba"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "Banfield",
+          "visitante": "Ind. Rivadavia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/banfield-vs-independiente-rivadavia/egdbgah"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "Central Córdoba",
+          "visitante": "Platense",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 4,
+            "visitante": 3
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/central-cordoba-sde-vs-platense/egdbgbc"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "San Lorenzo",
+          "visitante": "Vélez",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/san-lorenzo-vs-velez-sarsfield/egdbgbd"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "Tigre",
+          "visitante": "Huracán",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/tigre-vs-huracan/egdbgai"
+        },
+        {
+          "dia": "Lun 20/04",
+          "estado": "Final",
+          "local": "Gimnasia (M)",
+          "visitante": "Lanús",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/gimnasia-mendoza-vs-lanus/egdcbde"
+        }
+      ]
+    },
+    {
+      "fecha": "Fecha 16",
+      "partidos": [
+        {
+          "dia": "Jue 23/04",
+          "estado": "Final",
+          "local": "Defensa",
+          "visitante": "Boca Jrs.",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 4
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/defensa-y-justicia-vs-boca-juniors/egdbfjj"
+        },
+        {
+          "dia": "Vie 24/04",
+          "estado": "Final",
+          "local": "Riestra",
+          "visitante": "Independiente",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/riestra-vs-independiente/egdbgaa"
+        },
+        {
+          "dia": "Vie 24/04",
+          "estado": "Final",
+          "local": "Lanús",
+          "visitante": "Central Córdoba",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/lanus-vs-central-cordoba-sde/egdbgaf"
+        },
+        {
+          "dia": "Vie 24/04",
+          "estado": "Final",
+          "local": "Estudiantes RC",
+          "visitante": "Central",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-rio-cuarto-vs-rosario-central/egdcbdb"
+        },
+        {
+          "dia": "Vie 24/04",
+          "estado": "Final",
+          "local": "Racing",
+          "visitante": "Barracas",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/racing-club-vs-barracas-central/egdbfjd"
+        },
+        {
+          "dia": "Vie 24/04",
+          "estado": "Final",
+          "local": "Platense",
+          "visitante": "San Lorenzo",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/platense-vs-san-lorenzo/egdbgae"
+        },
+        {
+          "dia": "Sáb 25/04",
+          "estado": "Final",
+          "local": "Estudiantes",
+          "visitante": "Talleres",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/estudiantes-de-la-plata-vs-talleres-cordoba/egdbgab"
+        },
+        {
+          "dia": "Sáb 25/04",
+          "estado": "Final",
+          "local": "Sarmiento",
+          "visitante": "Tigre",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 0
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/sarmiento-junin-vs-tigre/egdbfjg"
+        },
+        {
+          "dia": "Sáb 25/04",
+          "estado": "Final",
+          "local": "River",
+          "visitante": "Aldosivi",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 3,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/river-plate-vs-aldosivi/egdbfjf"
+        },
+        {
+          "dia": "Dom 26/04",
+          "estado": "Final",
+          "local": "Ind. Rivadavia",
+          "visitante": "Gimnasia (M)",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 5,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/independiente-rivadavia-vs-gimnasia-mendoza/egdcbdc"
+        },
+        {
+          "dia": "Dom 26/04",
+          "estado": "Final",
+          "local": "Belgrano",
+          "visitante": "Gimnasia",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 0,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/belgrano-vs-gimnasia-la-plata/egdbfje"
+        },
+        {
+          "dia": "Dom 26/04",
+          "estado": "Final",
+          "local": "Newell's",
+          "visitante": "Instituto",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/newell's-old-boys-vs-instituto-ac-cordoba/egdbgac"
+        },
+        {
+          "dia": "Dom 26/04",
+          "estado": "Final",
+          "local": "Atl. Tucumán",
+          "visitante": "Banfield",
+          "localia": "local=team_left",
+          "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+          "jugado": true,
+          "url_partido": "https://www.promiedos.com.ar/game/atletico-tucuman-vs-banfield/egdbfji"
+        },
+        {
+          "dia": "Lun 27/04",
+          "estado": null,
+          "local": "Vélez",
+          "visitante": "Unión",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/velez-sarsfield-vs-union-santa-fe/egdbgad"
+        },
+        {
+          "dia": "Lun 27/04",
+          "estado": null,
+          "local": "Huracán",
+          "visitante": "Argentinos",
+          "localia": "local=team_left",
+          "resultado": null,
+          "jugado": false,
+          "url_partido": "https://www.promiedos.com.ar/game/huracan-vs-argentinos-juniors/egdbfjh"
+        }
+      ]
+    }
+  ]
+}

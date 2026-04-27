@@ -1,0 +1,488 @@
+{
+  "fuente": "https://www.promiedos.com.ar/league/liga-profesional/hc",
+  "actualizado_en": "2026-04-27T19:05:21.087Z",
+  "zona_a": [
+    {
+      "posicion": 1,
+      "equipo": "Estudiantes",
+      "escudo": "https://api.promiedos.com.ar/images/team/igh/4",
+      "pts": 28,
+      "pj": 15,
+      "gol": "17:7",
+      "diferencia_gol": 10,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "V",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 2,
+      "equipo": "Boca Jrs.",
+      "escudo": "https://api.promiedos.com.ar/images/team/igg/4",
+      "pts": 27,
+      "pj": 15,
+      "gol": "20:8",
+      "diferencia_gol": 12,
+      "ultimos_partidos": [
+        "V",
+        "V",
+        "E",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 3,
+      "equipo": "Vélez",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihc/4",
+      "pts": 26,
+      "pj": 14,
+      "gol": "15:9",
+      "diferencia_gol": 6,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "D",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 4,
+      "equipo": "Talleres",
+      "escudo": "https://api.promiedos.com.ar/images/team/jche/4",
+      "pts": 25,
+      "pj": 15,
+      "gol": "16:12",
+      "diferencia_gol": 4,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "V",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 5,
+      "equipo": "Lanús",
+      "escudo": "https://api.promiedos.com.ar/images/team/igj/4",
+      "pts": 23,
+      "pj": 15,
+      "gol": "18:15",
+      "diferencia_gol": 3,
+      "ultimos_partidos": [
+        "E",
+        "D",
+        "V",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "posicion": 6,
+      "equipo": "San Lorenzo",
+      "escudo": "https://api.promiedos.com.ar/images/team/igf/4",
+      "pts": 22,
+      "pj": 15,
+      "gol": "13:12",
+      "diferencia_gol": 1,
+      "ultimos_partidos": [
+        "V",
+        "E",
+        "E",
+        "V",
+        "E"
+      ]
+    },
+    {
+      "posicion": 7,
+      "equipo": "Independiente",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihe/4",
+      "pts": 21,
+      "pj": 15,
+      "gol": "22:19",
+      "diferencia_gol": 3,
+      "ultimos_partidos": [
+        "D",
+        "V",
+        "E",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "posicion": 8,
+      "equipo": "Unión",
+      "escudo": "https://api.promiedos.com.ar/images/team/hcag/4",
+      "pts": 19,
+      "pj": 14,
+      "gol": "21:17",
+      "diferencia_gol": 4,
+      "ultimos_partidos": [
+        "D",
+        "D",
+        "V",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "posicion": 9,
+      "equipo": "Defensa",
+      "escudo": "https://api.promiedos.com.ar/images/team/hcbh/4",
+      "pts": 19,
+      "pj": 15,
+      "gol": "17:19",
+      "diferencia_gol": -2,
+      "ultimos_partidos": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 10,
+      "equipo": "Instituto",
+      "escudo": "https://api.promiedos.com.ar/images/team/hchc/4",
+      "pts": 18,
+      "pj": 15,
+      "gol": "15:17",
+      "diferencia_gol": -2,
+      "ultimos_partidos": [
+        "E",
+        "D",
+        "V",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "posicion": 11,
+      "equipo": "Platense",
+      "escudo": "https://api.promiedos.com.ar/images/team/hcah/4",
+      "pts": 16,
+      "pj": 15,
+      "gol": "10:13",
+      "diferencia_gol": -3,
+      "ultimos_partidos": [
+        "D",
+        "D",
+        "E",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "posicion": 12,
+      "equipo": "Gimnasia (M)",
+      "escudo": "https://api.promiedos.com.ar/images/team/bbjbf/4",
+      "pts": 16,
+      "pj": 15,
+      "gol": "12:21",
+      "diferencia_gol": -9,
+      "ultimos_partidos": [
+        "D",
+        "V",
+        "E",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "posicion": 13,
+      "equipo": "Central Córdoba",
+      "escudo": "https://api.promiedos.com.ar/images/team/beafh/4",
+      "pts": 16,
+      "pj": 15,
+      "gol": "10:19",
+      "diferencia_gol": -9,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "posicion": 14,
+      "equipo": "Newell's",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihh/4",
+      "pts": 14,
+      "pj": 15,
+      "gol": "14:26",
+      "diferencia_gol": -12,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "E",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 15,
+      "equipo": "Riestra",
+      "escudo": "https://api.promiedos.com.ar/images/team/bbjea/4",
+      "pts": 10,
+      "pj": 15,
+      "gol": "5:12",
+      "diferencia_gol": -7,
+      "ultimos_partidos": [
+        "V",
+        "D",
+        "D",
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "zona_b": [
+    {
+      "posicion": 1,
+      "equipo": "Ind. Rivadavia",
+      "escudo": "https://api.promiedos.com.ar/images/team/hcch/4",
+      "pts": 33,
+      "pj": 15,
+      "gol": "28:14",
+      "diferencia_gol": 14,
+      "ultimos_partidos": [
+        "V",
+        "E",
+        "V",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 2,
+      "equipo": "River",
+      "escudo": "https://api.promiedos.com.ar/images/team/igi/4",
+      "pts": 29,
+      "pj": 15,
+      "gol": "22:11",
+      "diferencia_gol": 11,
+      "ultimos_partidos": [
+        "V",
+        "D",
+        "V",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 3,
+      "equipo": "Central",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihf/4",
+      "pts": 27,
+      "pj": 15,
+      "gol": "19:15",
+      "diferencia_gol": 4,
+      "ultimos_partidos": [
+        "V",
+        "V",
+        "D",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "posicion": 4,
+      "equipo": "Argentinos",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihb/4",
+      "pts": 26,
+      "pj": 14,
+      "gol": "15:10",
+      "diferencia_gol": 5,
+      "ultimos_partidos": [
+        "V",
+        "D",
+        "V",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 5,
+      "equipo": "Belgrano",
+      "escudo": "https://api.promiedos.com.ar/images/team/fhid/4",
+      "pts": 23,
+      "pj": 15,
+      "gol": "13:13",
+      "diferencia_gol": 0,
+      "ultimos_partidos": [
+        "D",
+        "E",
+        "V",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "posicion": 6,
+      "equipo": "Gimnasia",
+      "escudo": "https://api.promiedos.com.ar/images/team/iia/4",
+      "pts": 23,
+      "pj": 15,
+      "gol": "17:19",
+      "diferencia_gol": -2,
+      "ultimos_partidos": [
+        "V",
+        "V",
+        "V",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "posicion": 7,
+      "equipo": "Huracán",
+      "escudo": "https://api.promiedos.com.ar/images/team/iie/4",
+      "pts": 21,
+      "pj": 14,
+      "gol": "16:11",
+      "diferencia_gol": 5,
+      "ultimos_partidos": [
+        "E",
+        "V",
+        "V",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "posicion": 8,
+      "equipo": "Barracas",
+      "escudo": "https://api.promiedos.com.ar/images/team/jafb/4",
+      "pts": 21,
+      "pj": 15,
+      "gol": "14:13",
+      "diferencia_gol": 1,
+      "ultimos_partidos": [
+        "E",
+        "E",
+        "V",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "posicion": 9,
+      "equipo": "Racing",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihg/4",
+      "pts": 20,
+      "pj": 15,
+      "gol": "17:15",
+      "diferencia_gol": 2,
+      "ultimos_partidos": [
+        "E",
+        "E",
+        "D",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 10,
+      "equipo": "Tigre",
+      "escudo": "https://api.promiedos.com.ar/images/team/iid/4",
+      "pts": 19,
+      "pj": 15,
+      "gol": "17:14",
+      "diferencia_gol": 3,
+      "ultimos_partidos": [
+        "D",
+        "E",
+        "E",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "posicion": 11,
+      "equipo": "Sarmiento",
+      "escudo": "https://api.promiedos.com.ar/images/team/hbbh/4",
+      "pts": 19,
+      "pj": 15,
+      "gol": "13:16",
+      "diferencia_gol": -3,
+      "ultimos_partidos": [
+        "V",
+        "D",
+        "D",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "posicion": 12,
+      "equipo": "Banfield",
+      "escudo": "https://api.promiedos.com.ar/images/team/ihi/4",
+      "pts": 15,
+      "pj": 15,
+      "gol": "15:18",
+      "diferencia_gol": -3,
+      "ultimos_partidos": [
+        "E",
+        "E",
+        "D",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 13,
+      "equipo": "Atl. Tucumán",
+      "escudo": "https://api.promiedos.com.ar/images/team/gbfc/4",
+      "pts": 11,
+      "pj": 15,
+      "gol": "14:20",
+      "diferencia_gol": -6,
+      "ultimos_partidos": [
+        "E",
+        "D",
+        "E",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "posicion": 14,
+      "equipo": "Aldosivi",
+      "escudo": "https://api.promiedos.com.ar/images/team/hccd/4",
+      "pts": 7,
+      "pj": 15,
+      "gol": "5:18",
+      "diferencia_gol": -13,
+      "ultimos_partidos": [
+        "D",
+        "E",
+        "D",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "posicion": 15,
+      "equipo": "Estudiantes RC",
+      "escudo": "https://api.promiedos.com.ar/images/team/bheaf/4",
+      "pts": 5,
+      "pj": 15,
+      "gol": "5:22",
+      "diferencia_gol": -17,
+      "ultimos_partidos": [
+        "D",
+        "D",
+        "D",
+        "E",
+        "D"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { slugifyTeamName } from '@/libs/equipos'
 
-const TablaPosiciones = ({ titulo, equipos }) => {
+const TablaPosiciones = ({ titulo, equipos, zonaKey }) => {
   // Función auxiliar para los colores de los círculos de forma
   const getFormaColor = (resultado) => {
     switch (resultado) {
@@ -33,18 +35,23 @@ const TablaPosiciones = ({ titulo, equipos }) => {
             <tr key={team.equipo} className="border-b border-outline-variant/30 transition-colors hover:bg-surface-bright">
               <td className="p-2 font-bold sm:p-3">{team.posicion}</td>
               <td className="flex items-center gap-2 p-2 sm:gap-3 sm:p-3">
-                <div className="relative h-7 w-7 shrink-0 sm:h-8 sm:w-8">
-                  <Image
-                    src={team.escudo}
-                    alt={`Escudo de ${team.equipo}`}
-                    fill
-                    className="object-contain"
-                    unoptimized
-                  />
-                </div>
-                <span className="max-w-[140px] truncate font-medium text-on-surface sm:max-w-none sm:whitespace-normal">
-                  {team.equipo}
-                </span>
+                <Link
+                  href={`/equipos/${zonaKey}/${slugifyTeamName(team.equipo)}`}
+                  className="flex items-center gap-2 sm:gap-3"
+                >
+                  <div className="relative h-7 w-7 shrink-0 sm:h-8 sm:w-8">
+                    <Image
+                      src={team.escudo}
+                      alt={`Escudo de ${team.equipo}`}
+                      fill
+                      className="object-contain"
+                      unoptimized
+                    />
+                  </div>
+                  <span className="max-w-[140px] truncate font-medium text-on-surface hover:text-primary sm:max-w-none sm:whitespace-normal">
+                    {team.equipo}
+                  </span>
+                </Link>
               </td>
               <td className="p-2 text-center sm:p-3">{team.pj}</td>
               <td className={`p-2 text-center font-medium sm:p-3 ${team.dg > 0 ? "text-secondary-fixed" : "text-error"}`}>
