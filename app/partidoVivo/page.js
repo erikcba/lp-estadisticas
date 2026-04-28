@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { getClubDataByTeamName } from "@/libs/equipos";
 import { getFeaturedMatch } from "@/libs/partidos";
 import { useState } from 'react';
+import historialData from "../resultados.json";
 import formacionData from "../../data/scraping/clubes"
 
 const Page = () => {
@@ -158,9 +159,6 @@ const Page = () => {
       <div className='w-full container mx-auto'>
         {activeTab === 'Formaciones' && (
           <div className="p-6 flex flex-col items-start justify-start gap-4">
-            <h2 className=' text-2xl font-bold text-on-background mt-6 mb-4 px-6'>
-              Formaciones
-            </h2>
             <div className='flex flex-row items-center justify-center w-full bg-surface-container-lowest rounded-2xl p-6 gap-8'>
               <div className='flex w-1/2 flex-col items-center gap-4'>
                 <h2 className='text-md font-medium text-on-background/60 uppercase tracking-widest whitespace-nowrap '>
@@ -248,6 +246,102 @@ const Page = () => {
           </div>
 
         )}
+        <div className='w-full container mx-auto'>
+          {activeTab === 'Historial' && (
+            <div className="p-6 flex flex-col items-start justify-start gap-4">
+              <div className='flex flex-row items-center justify-center w-full bg-surface-container-lowest rounded-2xl p-6 gap-8'>
+                <div className='flex w-1/2 flex-col items-center gap-4'>
+                  <h2 className='text-md font-medium text-on-background/60 uppercase tracking-widest whitespace-nowrap '>
+                    Local
+                  </h2>
+                  <div className='relative h-14 w-14 shrink-0 sm:h-20 sm:w-20 md:h-24 md:w-24'>
+                    <Image
+                      src={partido.local.escudo}
+                      alt={partido.local.nombre}
+                      fill
+                      className="object-contain drop-shadow-lg"
+                      unoptimized
+                    />
+                  </div>
+                  <h2 className='text-2xl font-bold text-on-background uppercase tracking-widest whitespace-nowrap '>
+                    {partido.local.nombre}
+                  </h2>
+                </div>
+                <div className='grid grid-cols-3 w-full'>
+                  <div className='flex flex-col gap-4 items-center justify-center'>
+                    <h2 className='text-xl font-bold text-emerald-300/80 uppercase tracking-widest whitespace-nowrap text-center'>
+                      Ganó
+                    </h2>
+                    <h2 className=' text-2xl font-bold text-white text-center '>
+                      88
+                    </h2>
+                  </div>
+                  <div className='flex flex-col gap-4 items-center justify-center'>
+                    <h2 className='text-xl font-bold text-on-background/60 uppercase tracking-widest whitespace-nowrap text-center'>
+                      Empataron
+                    </h2>
+                    <h2 className=' text-2xl font-bold text-white text-center '>
+                      84
+                    </h2>
+                  </div>
+                  <div className='flex flex-col gap-4 items-center justify-center'>
+                    <h2 className='text-xl font-bold text-emerald-300/80 uppercase tracking-widest whitespace-nowrap text-center'>
+                      Ganó
+                    </h2>
+                    <h2 className=' text-2xl font-bold text-white text-center '>
+                      94
+                    </h2>
+                  </div>
+                </div>
+                <div className='flex w-1/2 flex-col items-center gap-4'>
+                  <h2 className='text-md font-medium text-on-background/60 uppercase tracking-widest whitespace-nowrap '>
+                    Visitante
+                  </h2>
+                  <div className='relative h-14 w-14 shrink-0 sm:h-20 sm:w-20 md:h-24 md:w-24'>
+                    <Image
+                      src={partido.visitante.escudo}
+                      alt={partido.visitante.nombre}
+                      fill
+                      className="object-contain drop-shadow-lg"
+                      unoptimized
+                    />
+                  </div>
+                  <h2 className='text-2xl font-bold text-on-background uppercase tracking-widest whitespace-nowrap '>
+                    {partido.visitante.nombre}
+                  </h2>
+                </div>
+              </div>
+              <div className='w-full'>
+                <h2 className='text-lg font-bold text-on-background/60 uppercase tracking-widest whitespace-nowrap text-center'>
+                  Ultimos enfrentamientos entre {partido.local.nombre} y {partido.visitante.nombre}
+                </h2>
+                {
+                  historialData.Historial.map((partido, index) => (
+                    <div key={index} className="flex flex-col w-full items-center justify-center gap-4 p-4 bg-surface-container-lowest rounded-lg border border-white/5 mt-4">
+                      <div className="flex w-full flex-col justify-center items-center gap-3">
+                        <p className="text-xs font-mono bg-white/10 flex items-center justify-center rounded text-green-400">
+                          {partido.fecha}
+                        </p>
+                        <p className="text-xs font-mono bg-white/10 flex items-center justify-center rounded text-green-400">
+                          {partido.competicion}
+                        </p>
+                      </div>
+                      <div className="flex flex-row w-full justify-center items-center gap-1">
+                        <p className="font-medium">
+                          {partido.local}
+                        </p>
+                        <p className="text-xs font-mono bg-white/10 flex items-center justify-center rounded text-green-400">
+                          {partido.resultado}
+                        </p>
+                        <p className="font-medium">{partido.visitante}</p>
+                      </div>
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
     </div>

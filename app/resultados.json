@@ -53,5 +53,77 @@
             "horario": "17:00",
             "fecha": "2026-04-05"
         }
+    ],
+    "Historial": [
+        {
+            "fecha": "2024-04-21",
+            "competicion": "Copa de la Liga - Cuartos de Final",
+            "estadio": "Mario Alberto Kempes",
+            "resultado": "Boca 3 - 2 River",
+            "ganador": "Boca Juniors"
+        },
+        {
+            "fecha": "2024-02-25",
+            "competicion": "Copa de la Liga - Fase de Grupos",
+            "estadio": "Monumental",
+            "resultado": "River 1 - 1 Boca",
+            "ganador": "Empate"
+        },
+        {
+            "fecha": "2023-10-01",
+            "competicion": "Copa de la Liga - Fase de Grupos",
+            "estadio": "La Bombonera",
+            "resultado": "Boca 0 - 2 River",
+            "ganador": "River Plate"
+        },
+        {
+            "fecha": "2023-05-07",
+            "competicion": "Liga Profesional",
+            "estadio": "Monumental",
+            "resultado": "River 1 - 0 Boca",
+            "ganador": "River Plate"
+        },
+        {
+            "fecha": "2022-09-11",
+            "competicion": "Liga Profesional",
+            "estadio": "La Bombonera",
+            "resultado": "Boca 1 - 0 River",
+            "ganador": "Boca Juniors"
+        },
+        {
+            "fecha": "2022-03-20",
+            "competicion": "Copa de la Liga - Fase de Grupos",
+            "estadio": "Monumental",
+            "resultado": "River 0 - 1 Boca",
+            "ganador": "Boca Juniors"
+        },
+        {
+            "fecha": "2021-10-03",
+            "competicion": "Liga Profesional",
+            "estadio": "Monumental",
+            "resultado": "River 2 - 1 Boca",
+            "ganador": "River Plate"
+        },
+        {
+            "fecha": "2021-08-04",
+            "competicion": "Copa Argentina - Octavos de Final",
+            "estadio": "Ciudad de La Plata",
+            "resultado": "Boca 0 (4) - 0 (1) River",
+            "ganador": "Boca Juniors (Penales)"
+        },
+        {
+            "fecha": "2021-05-16",
+            "competicion": "Copa de la Liga - Cuartos de Final",
+            "estadio": "La Bombonera",
+            "resultado": "Boca 1 (4) - 1 (2) River",
+            "ganador": "Boca Juniors (Penales)"
+        },
+        {
+            "fecha": "2021-03-14",
+            "competicion": "Copa de la Liga - Fase de Grupos",
+            "estadio": "La Bombonera",
+            "resultado": "Boca 1 - 1 River",
+            "ganador": "Empate"
+        }
     ]
 }
